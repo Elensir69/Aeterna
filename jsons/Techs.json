@@ -1,0 +1,631 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Industrial Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Settlement",
+				"row": 6,
+				"quote": "The Victorian era was a time of art and culture
+                                When Dickens wrote his novels and Darwin studied nature
+                                The poets sang of beauty, love, and sorrow
+                                And the painters captured scenes of yesterday and tomorrow",
+				"uniques": ["Starting tech","Enables [Embarked] units to enter ocean tiles","Enables embarkation for land units", "Enables Open Borders agreements", "Enables Defensive Pacts", "Enables establishment of embassies"]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Industrial Era",
+		"techCost": 70,
+		"buildingCost": 150,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Gas Lighting",
+				"row": 2,
+				"prerequisites": ["Settlement"],
+			},
+			{
+				"name": "Hunting Pets",
+				"row": 4,
+				"prerequisites": ["Settlement"],
+			},
+			{
+				"name": "Saw",
+				"row": 6,
+				"prerequisites": ["Settlement"],
+			},
+			{
+				"name": "Mining",
+				"row": 8,
+				"prerequisites": ["Settlement"],
+			},
+                        {
+				"name": "Anesthesia",
+				"row": 9,
+				"prerequisites": ["Settlement"],
+			}
+		]
+	},
+        {
+		"columnNumber": 2,
+		"era": "Industrial Era",
+		"techCost": 200,
+		"buildingCost": 170,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Archaeology",
+				"row": 2,
+				"prerequisites": ["Mining"],
+			},
+			{
+				"name": "Scientific Theory",
+				"row": 3,
+				"uniques": ["Enables Research agreements"],
+				"prerequisites": ["Hunting Pets"],
+			},
+			{
+				"name": "Industrialization",
+				"row": 4,
+				"prerequisites": ["Saw", "Mining"],
+			},
+			{
+				"name": "Telegraph",
+				"row": 5,
+				"prerequisites": ["Gas Lighting"],
+			},
+                        {
+				"name": "Railway",
+				"row": 6,
+				"prerequisites": ["Saw","Mining"],
+			},
+                        {
+				"name": "Rifling",
+				"row": 7,
+				"prerequisites": ["Hunting Pets"],
+			}
+                        {
+				"name": "Vaccine",
+				"row": 9,
+				"prerequisites": ["Anesthesia", "Mining"],
+			}
+		]
+	},
+        {
+		"columnNumber": 3,
+		"era": "New Imperial Era",
+		"techCost": 300,
+		"buildingCost": 190,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Novel",
+				"row": 2,
+				"prerequisites": ["Archaeology"],
+			},
+			{
+				"name": "Fridge",
+				"row": 3,
+				"prerequisites": ["Scientific Theory", "Vaccine"],
+			},
+			{
+				"name": "Steam Power",
+				"row": 4,
+				"prerequisites": ["Industrialization"],
+			},
+			{
+				"name": "Photography",
+				"row": 5,
+				"prerequisites": ["Telegraph"],
+			},
+                        {
+				"name": "Dynamite",
+				"row": 6,
+				"prerequisites": ["Industrialization","Railway"],
+			},
+                        {
+				"name": "Military Science",
+				"row": 7,
+				"prerequisites": ["Rifling"],
+			}
+                        {
+				"name": "Antibiotic",
+				"row": 9,
+				"prerequisites": ["Vaccine","Scientific Theory"],
+			}
+		]
+	},
+        {
+		"columnNumber": 4,
+		"era": "New Imperial Era",
+		"techCost": 400,
+		"buildingCost": 250,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Psychoanalysis",
+				"row": 2,
+				"prerequisites": ["Novel","Photography"],
+			},
+			{
+				"name": "Biology",
+				"row": 3,
+				"prerequisites": ["Antibiotic","Steam Power"],
+			},
+			{
+				"name": "Electricity",
+				"row": 4,
+				"prerequisites": ["Steam Power", "Fridge"],
+			},
+			{
+				"name": "Opera",
+				"row": 5,
+				"prerequisites": ["Photography","Novel"],
+			},
+                        {
+				"name": "Artillery",
+				"row": 6,
+				"prerequisites": ["Dynamite","Military Science"],
+			},
+                        {
+				"name": "Transfusion",
+				"row": 9,
+				"prerequisites": ["Antibiotic","Military Science"],
+			}
+		]
+	},
+        {
+		"columnNumber": 5,
+		"era": "First World War",
+		"techCost": 600,
+		"buildingCost": 300,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Radio", 
+				"row": 2,
+				"prerequisites": ["Psychoanalysis"],
+			},
+			{
+				"name": "Electrical Refrigeration",
+				"row": 4,
+				"prerequisites": ["Transfusion", "Electricity"],
+			},
+			{
+				"name": "Flight",
+				"row": 6,
+				"prerequisites": ["Opera","Artillery"],
+			},
+                        {
+				"name": "Replaceable Parts",
+				"row": 8,
+				"prerequisites": ["Electricity","Biology"],
+			},
+                        {
+				"name": "Combustion",
+				"row": 9,
+				"prerequisites": ["Artillery"],
+			}
+		]
+	},
+        {
+		"columnNumber": 6,
+		"era": "First World War",
+		"techCost": 700,
+		"buildingCost": 320,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Ballistics", 
+				"row": 2,
+				"prerequisites": ["Radio", "Flight"],
+			},
+			{
+				"name": "Electronics",
+				"row": 4,
+				"prerequisites": ["Electrical Refrigeration"],
+			},
+			{
+				"name": "Economics",
+				"row": 7,
+				"prerequisites": ["Flight","Replaceable Parts"],
+			},
+                        {
+				"name": "Tanks",
+				"row": 6,
+				"prerequisites": ["Combustion"],
+			},
+                        {
+				"name": "Chemistry",
+				"row": 9,
+				"prerequisites": ["Combustion","Electrical Refrigeration"],
+			}
+		]
+	},
+        {
+		"columnNumber": 7,
+		"era": "Second World War",
+		"techCost": 750,
+		"buildingCost": 360,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Atomic Theory", 
+				"row": 2,
+				"prerequisites": ["Ballistics", "Electronics"],
+			},
+                        {
+				"name": "Advanced Flight", 
+				"row": 3,
+				"prerequisites": ["Ballistics", "Electronics"],
+			},
+                        {
+				"name": "Advanced Ballistics", 
+				"row": 4,
+				"prerequisites": ["Ballistics", "Tanks"],
+			},
+			{
+				"name": "Plastics",
+				"row": 6,
+				"prerequisites": ["Economics","Chemistry"],
+			},
+                        {
+				"name": "Combined Arms",
+				"row": 8,
+				"prerequisites": ["Tanks","Ballistics"],
+			}
+                        {
+				"name": "Pharmaceuticals",
+				"row": 9,
+				"prerequisites": ["Chemistry","Economics"],
+			}
+		]
+	},
+        {
+		"columnNumber": 8,
+		"era": "Second World War",
+		"techCost": 890,
+		"buildingCost": 390,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Satellites", 
+				"row": 2,
+                                "uniques": ["Reveals the entire map"],
+				"prerequisites": ["Atomic Theory", "Advanced Flight"],
+                                "quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
+			},
+                        {
+				"name": "Nuclear Energy", 
+				"row": 3,
+				"prerequisites": ["Atomic Theory", "Combined Arms"],
+			},
+                        {
+				"name": "Telecommunications", 
+				"row": 4,
+				"prerequisites": ["Plastics", "Combined Arms"],
+			},
+                        {
+				"name": "Guidance Systems", 
+				"row": 6,
+				"prerequisites": ["Combined Arms", "Plastics"],
+			},
+			{
+				"name": "Composites",
+				"row": 7,
+				"prerequisites": ["Combined Arms","Plastics"],
+			},
+                        {
+				"name": "Sanitation",
+				"row": 8,
+				"prerequisites": ["Pharmaceuticals","Atomic Theory"],
+			}
+                        {
+				"name": "Computers",
+				"row": 9,
+				"prerequisites": ["Atomic Theory","Advanced Ballistics"],
+			}
+		]
+	},
+        {
+		"columnNumber": 9,
+		"era": "Second World War",
+		"techCost": 900,
+		"buildingCost": 420,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Enigma", 
+				"row": 2,
+				"prerequisites": ["Satellites"],
+			},
+                        {
+				"name": "Pressurized Cabin", 
+				"row": 4,
+				"prerequisites": ["Telecommunications", "Computers"],
+			},
+                        {
+				"name": "Synthetic Rubber", 
+				"row": 5,
+				"prerequisites": ["Guidance Systems", "Composites"],
+			},
+			{
+				"name": "Atomic Bomb",
+				"row": 7,
+				"prerequisites": ["Nuclear Energy","Composites"],
+			},
+                        {
+				"name": "Penicillin",
+				"row": 8,
+				"prerequisites": ["Sanitation"],
+			}
+                        {
+				"name": "Aerosol Can",
+				"row": 9,
+				"prerequisites": ["Telecommunications","Sanitation"],
+			}
+		]
+	},
+        {
+		"columnNumber": 10,
+		"era": "Cold War",
+		"techCost": 1200,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Post War", 
+				"row": 2,
+				"prerequisites": ["Atomic Bomb"],
+			},
+                        {
+				"name": "Coexistency", 
+				"row": 4,
+				"prerequisites": ["Enigma", "Aerosol Can"],
+			},
+                        {
+				"name": "SALT Agreements", 
+				"row": 5,
+				"prerequisites": ["Penicillin", "Synthetic Rubber"],
+			},
+			{
+				"name": "Truman Doctrine",
+				"row": 7,
+				"prerequisites": ["Atomic Bomb","Enigma"],
+			},
+                        {
+				"name": "Arms Race",
+				"row": 9,
+				"prerequisites": ["Pressurized Cabin"],
+			}
+		]
+	},
+        {
+		"columnNumber": 11,
+		"era": "Cold War",
+		"techCost": 1200,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Space Race", 
+				"row": 2,
+				"prerequisites": ["Truman Doctrine"],
+			},
+                        {
+				"name": "Korea War", 
+				"row": 4,
+				"prerequisites": ["Arms Race", "Truman Doctrine"],
+			},
+                        {
+				"name": "Vietnam War", 
+				"row": 5,
+				"prerequisites": ["SALT Agreements", "Post War"],
+			},
+			{
+				"name": "Reconstruction",
+				"row": 7,
+				"prerequisites": ["Arms Race","Coexistency"],
+			},
+                        {
+				"name": "Free Market",
+				"row": 9,
+				"prerequisites": ["Coexistency"],
+			}
+		]
+	},
+        {
+		"columnNumber": 12,
+		"era": "Post Cold War",
+		"techCost": 1200,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Globalization", 
+				"row": 2,
+				"prerequisites": ["Free Market","Reconstruction"],
+			},
+                        {
+				"name": "International Trade Agreements", 
+				"row": 3,
+				"prerequisites": ["Korea War", "Reconstruction"],
+			},
+                        {
+				"name": "Afganistan/Irak Wars", 
+				"row": 4,
+				"prerequisites": ["Korea War", "Vietnam War"],
+			},
+                        {
+				"name": "Paris Agreements",
+				"row": 7,
+				"prerequisites": ["Vietnam War"],
+			},
+			{
+				"name": "Personal Computing",
+				"row": 8,
+				"prerequisites": ["Space Race"],
+			},
+                        {
+				"name": "NAFTA",
+				"row": 9,
+				"prerequisites": ["Reconstruction"],
+			}
+		]
+	},
+        {
+		"columnNumber": 13,
+		"era": "Post Cold War",
+		"techCost": 1300,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Internet", 
+				"uniques": ["[+2 Science, +3 Happiness] [in all cities]"],
+				"row": 2,
+				"prerequisites": ["Globalization", "International Trade Agreements","Personal Computing"],
+			},
+            {
+				"name": "European Union", 
+				"row": 4,
+				"uniques": ["[+2 Production] from [Military Factory] tiles [in all cities]"],
+				"prerequisites": ["Paris Agreements", "NAFTA","International Trade Agreements"],
+			},
+            {
+				"name": "Desert Storm", 
+				"row": 6,
+				"prerequisites": ["Afganistan/Irak Wars","NAFTA"],
+			},
+			{
+				"name": "Social Media",
+				"uniques": ["[+2 Happiness] from [House] tiles [in all cities]"],
+				"row": 9,
+				"prerequisites": ["Globalization", "Personal Computing","Afganistan/Irak Wars"],
+			}
+		]
+	},
+        {
+		"columnNumber": 14,
+		"era": "Post Cold War",
+		"techCost": 1400,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Farm Technology", 
+				"row": 2,
+				"uniques": ["[+4 Production] from [Wheat] tiles [in all cities]","[+4 Production] from [Ranch] tiles [in all cities]","[+4 Production] from [Stable] tiles [in all cities]"],
+				"prerequisites": ["European Union", "Desert Storm"],
+			},
+                        {
+				"name": "Ecology",
+				"row": 6,
+				"uniques": ["[+3 Science] from [Forest] tiles [in all cities]","[+3 Science] from [Jungle] tiles [in all cities]","[+3 Science] from [Marsh] tiles [in all cities]"],
+				"prerequisites": ["Social Media", "Internet"],
+			}
+                        {
+				"name": "Renewable Materials", 
+				"row": 3,
+                "uniques": ["[+2 Gold, +2 Production] from [Strategic resource] tiles [in all cities]"],
+				"prerequisites": ["European Union", "Desert Storm"],
+			},
+                        {
+				"name": "Smartphones",
+				"row": 7,
+				"uniques": ["[+2 Science, +2 Production] from [Civil Factory] tiles [in all cities]"],
+				"prerequisites": ["Social Media", "Internet"],
+			},
+                        {
+				"name": "Cloud Computing",
+				"row": 9,
+                "uniques": ["[+2 Happiness] from [House] tiles [in all cities]"],
+				"prerequisites": ["Internet"],
+			}
+		]
+	},
+        {
+		"columnNumber": 15,
+		"era": "Post Cold War",
+		"techCost": 1500,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Global Surveillance Systems", 
+				"row": 2,
+				"uniques": ["[+1 Science] from [Mine] tiles [in all cities]","[+1 Science] from [Mine] tiles [in capital]"],
+				"prerequisites": ["Smartphones", "Renewable Materials"],
+			},
+                        {
+				"name": "Modern Burned Earth", 
+				"row": 3,
+				"prerequisites": ["Renewable Materials", "Cloud Computing"],
+			},
+                        {
+				"name": "Lasers",
+				"row": 7,
+				"uniques": ["[+3 Production] from [Military Factory] tiles [in all cities]","[+1 Production] from [Civil Factory] tiles [in all cities]"],
+				"prerequisites": ["Ecology"],
+			},
+                        {
+				"name": "Climate Engineering",
+				"uniques": ["[+1 Science] from [Tundra] tiles [in all cities]","[+1 Science] from [Desert] tiles [in all cities]","[+1 Science] from [Snow] tiles [in all cities]"],
+				"row": 9,
+				"prerequisites": ["Farm Technology"],
+			}
+		]
+	},
+        {
+		"columnNumber": 16,
+		"era": "Post Cold War",
+		"techCost": 1500,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Urban Warfare Training", 
+				"row": 2,
+				"prerequisites": ["Global Surveillance Systems", "Modern Burned Earth"],
+			},
+                        {
+				"name": "Drone Warfare", 
+				"uniques": ["[+60]% Strength <for [Drone] units>","[+20]% Strength <for [Infantry] units>","[+30]% Strength <for [Armored] units>"],
+				"row": 6,
+				"prerequisites": ["Lasers","Modern Burned Earth"],
+			},
+                        {
+				"name": "Biodefense",
+				"row": 4,
+				"uniques": ["[+200]% Yield from every [Forest]","[+200]% Yield from every [Jungle]","[+200]% Yield from every [Marsh]"],
+				"prerequisites": ["Climate Engineering"],
+			},
+                        {
+				"name": "Stealth Technology",
+				"uniques": ["[+59]% Strength <for [Water] units>"],
+				"row": 9,
+				"prerequisites": ["Lasers"],
+			}
+		]
+	},
+        {
+		"columnNumber": 17,
+		"era": "Post Cold War",
+		"techCost": 1500,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Humanity",
+				"row": 6,
+				"uniques": ["Can be continually researched"],
+				"prerequisites": ["Urban Warfare Training","Drone Warfare","Biodefense","Stealth Technology"],
+			}
+		]
+	}
+]

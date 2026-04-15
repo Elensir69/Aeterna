@@ -1,0 +1,92 @@
+[
+    {
+        "name": "African",
+        "friendBonusUniques": [
+            "[+3 Happiness]",
+            "[+3 Gold]"
+            
+        ],
+        "allyBonusUniques": ["[+6 Happiness]",
+            "[+6 Gold]","Provides military units every ≈[17] turns"
+        ],
+        "color": [245, 155, 66]
+    },
+    {
+        "name": "Australian Aboriginal",
+        "friendBonusUniques": [
+            "[+2 Faith]",
+            "[+1 Culture]"
+            
+        ],
+        "allyBonusUniques": ["Free [Aboriginal Elder] appears","[+3 Faith]","[+1 Happiness]",
+            "[+3 Culture]"
+        ],
+        "color": [252, 123, 3]
+    },
+    {
+        "name": "Colonial American",
+        "friendBonusUniques": [
+            "[+2 Production]",
+            "[+2 Culture]"
+        ],
+        "allyBonusUniques": ["[+4 Culture]","[+2 Production]"
+        ],
+        "color": [86, 182, 214]
+    },
+    {
+        "name": "Native American",
+        "friendBonusUniques": [
+            "[+2 Food]",
+            "[+3 Production]"
+        ],
+        "allyBonusUniques": ["[+4 Food]","[+4 Production]"
+        ],
+        "color": [107, 255, 164]
+    },
+    {
+        "name": "European",
+        "friendBonusUniques": [
+            "[+3 Science]",
+            "[+1 Faith]"
+        ],
+        "allyBonusUniques": ["[+2 Production]","[+4 Science]"
+        ],
+        "color": [150, 242, 155]
+    },
+    {
+        "name": "Asian",
+        "friendBonusUniques": [
+            "[+1 Faith]",
+            "[+1 Production]",
+            "[+1 Culture]"
+        ],
+        "allyBonusUniques": ["[+2 Faith]",
+            "[+2 Production]",
+            "[+3 Culture]"
+        ],
+        "color": [210, 242, 80]
+    },
+    {
+        "name": "Middle Eastern",
+        "friendBonusUniques": [
+            "[+3 Gold]",
+            "[+3 Faith]"
+        ],
+        "allyBonusUniques": ["[+6 Gold]",
+            "[+6 Faith]"
+        ],
+        "color": [240, 56, 36]
+    }
+    {
+        "name": "Polynessian",
+        "friendBonusUniques": [
+            "[+2 Culture]",
+            "[+3 Faith]"
+        ],
+        "allyBonusUniques": ["[+4 Culture]",
+            "[+4 Faith]"
+        ],
+        "color": [252, 3, 69]
+    }
+
+]

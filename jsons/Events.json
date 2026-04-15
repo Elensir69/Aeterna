@@ -1,0 +1,422 @@
+[
+   {
+        "name": "Que sommes-nous ?",
+        "text": "Que sommes-nous ?",
+        "choices": [
+                {
+        "text": "Héritiers",
+        "uniques": [
+        "Gain [100] [Gold]"]
+      },
+      {
+        "text": "Fondateurs",
+        "uniques": [
+        "Free [Settler] appears"]
+     },
+     {
+        "text": "Marchands",
+        "uniques": [
+        "Free [Worker] appears"]
+    },
+    {
+        "text": "Guerriers",
+        "uniques": [
+        "Free [Explorer] appears"]
+    },
+    {
+        "text": "Prêtres",
+        "uniques": [
+        "Gain enough Faith for a Pantheon"]
+    }
+    {
+        "text": "Serviteurs",
+        "uniques": [
+        "Gain an extra spy"]
+    }
+
+        ]
+},
+      {
+        "name": "PTP-1919",
+        "text": "It's the end les gueux",
+        "choices": [
+                {
+        "text": "CONFINEMENT (coucou l'AS",
+        "uniques": [
+        "Gain [-20] [Gold] <for [10] turns> <(modified by game progress up to [100]%)> <every [1] turns>"]
+      },
+                {
+        "text": "Et si...",
+        "uniques": [
+        "Gain [+10] [Production] <in [Your] cities> <for [10] turns> <(modified by game progress up to [100]%)> <every [1] turns>", "[-3] population in a random city <for [10] turns> <every [1] turns>"]
+      },
+      {
+        "text": "Un médicament peut-être ?",
+        "uniques": [
+        "[-3] population in a random city <for [10] turns> <every [1] turns> <with [40]% chance>"]
+      },
+      {
+        "text": "L'État va protéger",
+        "uniques": [
+        "[-1] population in a random city <for [10] turns> <every [1] turns> <with [60]% chance>", "Gain [-5] [Gold] <for [10] turns> <(modified by game progress up to [100]%)> <every [1] turns>"]
+      },
+        ]
+},
+    {
+        "name": "Greek Focus",
+        "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+        "choices": [
+                {
+         "text": "Brûler les Turcs",
+         "uniques": [
+         "Gain [15] [Happiness] <for [10] turns>", "[10] free [Milice Impériale] units appear <upon declaring war on [The Ottomans] Civilizations> <for [20] turns>",
+         "[Land] units gain the [Flamethrower] promotion"]
+      },
+      {
+         "text": "Ligne Konstantinos",
+         "uniques": [
+         "Gain a free [Ligne Konstantinos] [in capital]"]
+     },
+     {
+         "text": "Effondrement économique",
+         "uniques": [
+         "[3] Free Technologies", "Gain a free [Any] belief", "Gain [-250] [Gold] <for [10] turns> <every [1] turns>", "Gain [-2500] [Gold]"]
+    },
+    {
+        "text": "Gloire aux Milices",
+        "uniques": [
+        "[15] free [Milice Impériale] units appear", "Gain control over [5] tiles [in capital]"]
+    },
+    {
+        "text": "Renaissance de l'Empire",
+        "uniques": [
+        "Gain an extra spy", "Triggers voting for the Diplomatic Victory", "Triggers the following global alert: [Byzance souhaite être proclamée Empereur du Monde]"]
+    },
+    {
+        "text": "Alliance avec la Seconde Rome",
+        "uniques": [
+        "Gain a free [Imperator Factory] [in capital]", "Empire enters a [12]-turn Golden Age",
+         "Gain control over [1] tiles [in your cities] <upon declaring a defensive pact> <for [30] turns>"]
+    },
+    {
+        "text": "Défenseur de la Foi",
+        "uniques": [
+        "Gain enough Faith for [200]% of a Great Prophet", "Gain a free [Any] belief", "[Garde Varègue] units gain the [Great Generals II] promotion"]
+    },
+    {
+        "text": "Dictature Orwell",
+        "uniques": [
+        "Remove [Liberty] and refund [220]% of its cost", "Free Great Person", "Free Great Person", "Gain an extra spy", "Gain [100] [Happiness] <for [5] turns>"]
+    },
+    {
+        "text": "Couronnement d'un Nouvel Empereur",
+        "uniques": [
+        "[2] Free Social Policies"]
+    },
+    {
+        "text": "Guerres aux Catholiques",
+        "uniques": [
+        "Gain [1000] [Faith] <upon entering a war with [Hungary] Civilizations>",
+         "[10] free [Milice Impériale] units appear <upon declaring war on [Hungary] Civilizations> <for [20] turns>"]
+    }
+
+        ]
+},
+{
+        "name": "Russian National Forces Focus",
+        "text": "The World is resolutely opposed to the Regeneration of our glorious Motherland! We are now at a crossroads and must choose the path to follow for decades to come so that our Eternal Russia can rise again from the ashes of Civil War! The National Martyr demands ever greater sacrifices, but we will never hesitate to burn everything we have for the Motherland.",
+        "choices": [
+                {
+        "text": "The National-Humanist Front",
+        "uniques": [
+        "Remove [Liberty] and refund [150]% of its cost", "Gain [-25] [Happiness] <for [25] turns>", "[3] population [in all cities]", "[2] Free Social Policies", "Gain [-250] [Gold] <for [10] turns> <every [1] turns>", "Gain [100] [Production] <in [Your] cities>", "Triggers the following global alert: [Les Fascistes ont renversé le Gouvernement de Rostov]"],
+      },
+      {
+        "text": "The Russian National-Humanist Republic",
+        "uniques": ["Gain [20] [Happiness] <for [10] turns>", "[3] population [in all cities]", "[2] Free Social Policies", "Gain [-250] [Gold] <for [10] turns> <every [1] turns>", "Free Great Person", "Triggers the following global alert: [La Démocratie Nationale Humaniste est Proclamée à Rostov]"],
+     },
+     {
+        "text": "The Eurasian Corporate State",
+        "uniques": [  "Remove [Liberty] and refund [150]% of its cost", "Gain [-25] [Happiness] <for [25] turns>",
+        "[2] Free Technologies", "Gain [100] [Production] <in [Your] cities>", "Free Great Person", "Triggers the following global alert: [Les Ambitions Eurasiatique des Oligarques Russes n’ont plus de limites !]"],
+    },
+    {
+        "text": "The Russian Empire Revival",
+        "uniques": [
+        "Remove [Liberty] and refund [150]% of its cost", "Gain [-25] [Happiness] <for [25] turns>", "[2] Free Social Policies", "Free Great Person", "Triggers the following global alert: [La Restauration Impériale prend place à Rostov]"],
+    },
+         {
+        "text": "The National Revolution Triumphant",
+        "uniques": ["Remove [Liberty] and refund [110]% of its cost", "Gain [10] [Happiness] <for [25] turns>","[1] population [in all cities]", "Triggers the following global alert: [La Révolution Nationale Triomphe à Rostov]"],
+    }
+,
+{
+        "text": "The Russian Accelerationist Movement Overthrown the Government",
+        "uniques": [ "Remove [Liberty] and refund [150]% of its cost", "Gain [-25] [Happiness] <for [100] turns>", "[3] population [in all cities]", "[2] Free Social Policies", "[2] Free Technologies", "Gain [-250] [Gold] <for [25] turns> <every [1] turns>", "Gain [100] [Production] <in [Your] cities>", "Triggers the following global alert: [Les accelérationnistes prennent le pouvoir à Rostov, le Rêve Démocratique Russe est mort... La Réalité n’a plus de prises sur ces terres...]"],
+    }
+
+        ]
+},
+    {
+        "name": "Italy Focus",
+        "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+        "choices": [
+                {
+        "text": "March on the Alps",
+        "uniques": [
+        "Empire enters golden age <upon declaring war on [Alps' Confederation] Civilizations> <for [20] turns>", "Remove [Swiss Bank] [in your cities]","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+      },
+      {
+        "text": "Overthrow Mussolini",
+        "uniques": [
+        "Free Great Person","[4] population [in all cities]"]
+     },
+     {
+        "text": "Italian Republic",
+        "uniques": [
+        "[2] Free Technologies", "Gain a free [Swiss Bank] [in capital]"]
+    },
+    {
+        "text": "Military Effort",
+        "uniques": [
+        "Gain a free [Imperator Factory] [in capital]", "Remove [Swiss Bank] [in your cities]"]
+    },
+    {
+        "text": "Roman Empire Revival",
+        "uniques": [
+        "Empire enters a [10]-turn Golden Age", "Triggers the following global alert: [l'Italie souhaite devenir Imperator du Globe]", "Triggers voting for the Diplomatic Victory",
+        "Gain a free [Palais Impérial] [in capital]", "Remove [Swiss Bank] [in your cities]", "Remove [Imperator Factory] [in your cities]"]
+    },
+    {
+        "text": "Restore the Monarchy",
+        "uniques": [
+        "Gain [1000] [Gold]","[1] Free Social Policies"]
+    }
+
+        ]
+},
+    {
+        "name": "Switzerland Focus",
+        "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+        "choices": [
+                {
+                        "text": "Union des Germanophones",
+                        "uniques": [
+                        "[5] free [Great War Infantry] units appear <upon declaring war on [German Empire] Civilizations>", "Gain [200] [Culture]", "[Land] units gain the [Flamethrower] promotion", "Triggers the following global alert: [Gare au pangermanisme de la Confédération Alpine...]"]
+      },
+      {
+                        "text": "Politique des régimes spéciaux",
+                        "uniques": [
+                        "Free Great Person [in puppeted cities]", "[+5] population [in puppeted cities]"]
+     },
+     {
+                        "text": "Posture défensive",
+                        "uniques": ["Gain an extra spy"]
+    },
+    {
+           "text": "£lite bancaire",
+         "uniques": [
+         "Remove [Liberty] and refund [110]% of its cost"]
+    },
+    {
+         "text": "Neutralité et arme nucléaire",
+          "uniques": ["Gain a free [Manhattan Project] [in capital]"]
+    },
+    {
+        "text": "comptoirs Mondiaux",
+       "uniques": [ "Provides [25] [Oil] <for [30] turns>"]
+    },
+    {
+         "text": "Relations européanistes",
+       "uniques": [ "Triggers voting for the Diplomatic Victory", "Gain control over [5] tiles [in capital]", "Triggers the following global alert: [Souhaiteriez-vous rejoindre l'UELE ?]"],
+    },
+    {
+        "text": "Swiss Banks",
+        "uniques": [
+        "Gain [1500] [Gold]"]
+    },
+    {
+        "text": "Diplomatic Maneuvering.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+},
+{
+    "name": "Germany Focus",
+    "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+    "choices": [
+            {
+                    "text": "Reichstag Fire Decree",
+                    "uniques": [
+                    "Free social Policy <upon declaring war on [all] Civilizations> <for [15] turns>","[Land] units gain the [Flamethrower] promotion"]
+  },
+  {
+                    "text": "Overthrow the Regime",
+                    "uniques": [
+                    "Free Great Person", "[4] population [in all cities]", "Gain an extra spy <upon declaring war on [all] Civilizations> <for [15] turns>"]
+ },
+ {
+    "text": "New Weimar Republic",
+    "uniques": [
+    "Free Great Person"]
+},
+ {
+                    "text": "Pacifism",
+                    "uniques": [
+                    "Free Technology <upon declaring friendship> <for [20] turns>"]
+},
+{
+    "text": "The King Treaty",
+    "uniques": [
+    "[5] free [Steam frigate] units appear <during the [New Imperial Era]>", "[5] free [Torpedo Boat] units appear <during the [New Imperial Era]>", "[5] free [Ironclad] units appear <during the [New Imperial Era]>", "[10] free [Destroyer] units appear <during the [First World War]>", "[8] free [Battleship] units appear <during the [Second World War]>", "[5] free [Carrier] units appear <during the [Second World War]>",
+    "[5] free [Phantom Carrier] units appear <upon entering a war with [all] Civilizations> <during the [Cold War]>", "[5] free [Atomic Submarine] units appear <upon entering a war with [all] Civilizations> <during the [Cold War]>", "[5] free [USS Nimitz] units appear <upon entering a war with [all] Civilizations> <during the [Post Cold War]>", "Gain [-300] [Gold]", "Triggers the following global alert: [The King a pris possession de 1'Allemagne, la flotte arrive]"]
+},
+{
+    "text": "Seven Nations Influence",
+    "uniques": [
+    "Gain a free [Universitas] [in capital]", "[2] Free Social Policies", "Empire enters golden age"]
+},
+{
+    "text": "Loss of South Germany",
+    "uniques": [
+    "[10] free [Great War Infantry] units appear <upon losing a city> <for [100] turns>", "[5] free [Great War Infantry] units appear <upon declaring war on [Alps' Confederation] Civilizations> <for [20] turns>"]
+},
+{
+    "text": "Nationalisation of the North",
+    "uniques": [
+    "Gain [1000] [Gold] <upon declaring war on [High Kingdom of the North] Civilizations> <for [20] turns>", "[5] free [Great War Infantry] units appear <upon declaring war on [High Kingdom of the North] Civilizations> <for [20] turns>"]
+},
+{
+    "text": "Debt",
+    "uniques": [
+    "Gain [10000] [Gold]", "Gain [-200] [Gold] <every [1] turns> <for [30] turns>"]
+}
+
+    ]
+},
+    {
+        "name": "Hungary Focus",
+        "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+        "choices": [
+                {
+                        "text": "Guerre de Religion",
+                        "uniques": [
+                        "Gain [2000] [Faith] <upon conquering a city> <for [100] turns>"]
+      },
+      {
+                        "text": "Éternelle Reconstruction",
+                        "uniques": [
+                        "Gain [40] [Gold] <upon building a [all] improvement> <for [40] turns>"]
+     },
+     {
+                        "text": "Éveil des Minorités",
+                        "uniques": [
+                        "[2] free [Great War Infantry] units appear <in [Enemy] cities> <upon entering a war with [all] Civilizations> <for [50] turns>"]
+    },
+    {
+        "text": "Isolationnisme",
+        "uniques": [
+        "Free Social Policy <upon entering a Golden Age> <for [25] turns>"]
+    },
+    {
+        "text": "Croisade Catholique",
+        "uniques": [
+        "[8] free [Garde de Grenat] units appear <upon entering a war with [Eastern Roman Empire] Civilizations> <for [30] turns>",
+         "Gain [30] [Faith] <upon defeating a [Military] unit> <for [30] turns>"]
+    },
+    {
+        "text": "Colonies Religieuses",
+        "uniques": [
+        "[3] free [Colons français] units appear"]
+    },
+    {
+        "text": "Déchéance Sécuritaire et Bidonvilles",
+        "uniques": [
+        "[10] population [in capital]", "[5] population in a random city <upon defeating a [Military] unit>",
+        "Gain [-100] [Happiness] <for [10] turns>"]
+    },
+    {
+        "text": "Mainmise sur l'économie",
+        "uniques": [
+        "Gain a free [Industrie du Paprika] [in your cities]", "Gain [-100] [Happiness] <for [3] turns>"]
+    },
+    {
+        "text": "Infiltration du Panier",
+        "uniques": [
+        "Gain an extra spy", "Promotes all spies [1] time(s)"]
+    },
+    {
+        "text": "Renaissance de l'Autriche-Hongrie",
+        "uniques": [
+        "[3] Free Social Policies", "Empire enters a [12]-turn Golden Age", "Triggers voting for the Diplomatic Victory",
+         "Triggers the following global alert: [Deux couronnes réémergent, Deux ? Non, une, celle de l'Autriche et la Hongrie réeunie]",
+         "[8] free [Garde de Grenat] units appear <upon entering a war with [Alps' Confederation] Civilizations> <for [30] turns>"]
+    }
+
+        ]
+},
+    {
+        "name": "America Focus",
+        "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+        "choices": [
+                {
+         "text": "Congrès de ses morts",
+         "uniques": [
+         "[Gain a free [Congrès] [in capital]", "Triggers voting for the Diplomatic Victory", "Triggers the following global alert: [Le Congrès des USA est pas content.]"]
+      },
+      {
+        "text": "Communist America",
+          "uniques": [
+         "[5] population [in all cities]"]
+     },
+     {
+        "text": "PTP-1919",
+        "uniques": [
+        "Triggers a [PTP-1919] event", "Triggers the following global alert: [Coucou PTP guys]", "Remove [Congrès] [in your cities]", "Instantly gain [4000] [Gold]"]
+},
+     {
+         "text": "Nazi overtones",
+         "uniques": [
+         "Remove [Congrès] [in your cities]", "[6] free [African Slave] units appear", "Instantly gain [100] [Golden Age points] <upon declaring war on [all] Civilizations> <for [50] turns>"]
+    },
+    {
+        "text": "CIA power",
+        "uniques": [
+        "Gain an extra spy","Promotes all spies [1] time(s)", "Remove [Congrès] [in your cities]"]
+    },
+    {
+        "text": "Dominance Doctrine",
+        "uniques": [
+        "Gain a free [Supercomplexe] [in all cities connected to capital]", "Provides the cheapest [Production] building in your first [4] cities for free"]
+    },
+    {
+        "text": "The US Administration will always support",
+        "uniques": [
+        "Free Great Person <upon declaring a defensive pact> <for [30] turns>"]
+    },
+    {
+        "text": "Impéachment",
+        "uniques": [
+        "Gain [-30] [Happiness] <for [5] turns>","Gain control over [3] tiles [in all cities]", "Remove [Congrès] [in your cities]"]
+    },
+    {
+        "text": "Shameful Treaties",
+        "uniques": [
+        "Gain [500] [Gold] <upon declaring a defensive pact> <for [30] turns>", "Gain [500] [Gold] <upon declaring friendship> <for [30] turns>"]
+    },
+    {
+        "text": "Economic Rebirth",
+        "uniques": [
+        "Empire enters a [20]-turn Golden Age"]
+    },
+    {
+        "text": "American Capital",
+        "uniques": [
+        "Gain [100] [Production] <in [Your] cities>"]
+    },
+
+        ]
+}
+]

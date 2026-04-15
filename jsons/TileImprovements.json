@@ -1,0 +1,459 @@
+[
+
+	{
+		"name": "Mill",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Savannah","Mountain Land","Mud","Cold Soil","Dry Soil","Fresh Soil","Beach"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Settlement",
+		"uniques": ["[+1 Food] for each adjacent [Ranch]","[+1 Food] for each adjacent [House]","Can also be built on tiles adjacent to fresh water",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+        {
+		"name": "House",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra","Snow","Desert","Savannah","Mountain Land","Mud","Cold Soil","Dry Soil","Fresh Soil","Beach"],
+		"turnsToBuild": 7,
+		"techRequired": "Gas Lighting",
+		"uniques": ["[+1 Food] for each adjacent [Bonus resource]","[+1 Happiness] for each adjacent [Luxury resource]","[+1 Food] for each adjacent [Bonus resource] <after discovering [Scientific Theory]>","Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+        {
+		"name": "Hunter Lodge",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra","Desert","Hill","Forest","Jungle","Savannah","Mountain Land","Mud","Cold Soil","Dry Soil","Fresh Soil","Beach"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Hunting Pets",
+		"uniques": ["Can only be built to improve a resource",
+            "Pillaging this improvement yields approximately [+18 Gold]","[+1 Gold] <after discovering [Scientific Theory]>"],
+		"shortcutKey": "F"
+	},
+        
+	{
+		"name": "Log Cabin",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle","Acacia","Mangroove","Baobab","Cherry Blossom","Pine Tree","Plains Pine Tree","Serra Tree","Dry Tree","Amazon Tall Tree","Narra"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Saw",
+		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>","Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Synthetic Oil Factory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Composites",
+		"uniques": ["Provides [1] [Oil]","Costs [20] [Gold] per turn when in your territory","Pillaging this improvement yields approximately [+60 Gold]"],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Oil well",
+		"turnsToBuild": 9,
+		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Offshore Platform",
+		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Ranch",
+		"turnsToBuild": 8,
+"techRequired": "Hunting Pets",
+		"uniques": ["[+1 Food] <after discovering [Scientific Theory]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+        {
+		"name": "Slave Labor Plantation",
+		"turnsToBuild": 8,
+"techRequired": "Hunting Pets",
+		"uniques": ["[+1 Gold] <after discovering [Scientific Theory]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+        {
+		"name": "Heavy Labor Plantation",
+                "production": 2,
+                "gold": 1,
+		"turnsToBuild": 11,
+"techRequired": "Electrical Refrigeration",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Stable",
+"techRequired": "Settlement",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Quarry",
+"techRequired": "Mining",
+		"turnsToBuild": 8,
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "Q"
+	},
+	{
+		"name": "Fishing Boats",
+"techRequired": "Settlement",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "F"
+	},
+	/// advanced
+	{
+		"name": "Solar Panels",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 4,
+		"gold": 2,
+		"science": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Renewable Materials",
+		"uniques": [
+            "Pillaging this improvement yields approximately [+30 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Modern District",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 5,
+		"food": 5,
+		"science": 2,
+		"faith": 2,
+		"culture": 2,
+		"turnsToBuild": 4,
+		"techRequired": "Global Surveillance Systems",
+		"uniques": ["[+3 Production] for each adjacent [Civil Factory]","[+4 Production] for each adjacent [Military Factory]","[+1 Production] for each adjacent [Mill]",
+            "Pillaging this improvement yields approximately [+30 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Biodome",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 3,
+		"production": 2,
+		"science": 3,
+		"turnsToBuild": 4,
+		"techRequired": "Climate Engineering",
+		"uniques": [
+            "Pillaging this improvement yields approximately [+30 Gold]"],
+		"shortcutKey": "F"
+	},
+
+	// Military improvement
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Savannah","Mountain Land","Mud","Cold Soil"],
+		"turnsToBuild": 10,
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [20]%"],
+	},
+        {
+		"name": "Trench",
+                "techRequired": "Replaceable Parts",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Savannah","Mountain Land","Mud","Cold Soil"],
+		"turnsToBuild": 4,
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [30]%","Adjacent enemy units ending their turn take [5] damage"],
+	},
+        {
+		"name": "Bunker",
+                "techRequired": "Replaceable Parts",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Savannah","Mountain Land","Mud","Cold Soil"],
+		"turnsToBuild": 10,
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
+	},
+        {
+		"name": "Barbed Wire",
+                "techRequired": "Replaceable Parts",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Savannah","Mountain Land","Mud","Cold Soil"],
+		"turnsToBuild": 4,
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [15]%","Adjacent enemy units ending their turn take [25] damage"],
+	},
+        {
+		"name": "Civil Factory",
+                "food": 1,
+                "happiness": 2,
+                "techRequired": "Plastics",
+                "uniques": ["Provides [5] [Manpower]","Costs [3] [Gold] per turn"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Savannah","Mountain Land","Mud","Cold Soil"],
+		"turnsToBuild": 15
+	},
+	{
+		"name": "Military Factory",
+                "production": 1,
+                "techRequired": "Plastics",
+                "uniques": ["Provides [5] [Armament]","Costs [3] [Gold] per turn"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Savannah","Mountain Land","Mud","Cold Soil"],
+		"turnsToBuild": 15
+	},
+        {
+		"name": "Geothermal Plant",
+                "techRequired": "Plastics",
+                "uniques": ["[+1 Production] for each adjacent [Mine]","[+4 Production] for each adjacent [Mountain]","Costs [10] [Gold] per turn"],
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"turnsToBuild": 15
+	},
+        
+
+	// Transportation
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
+		"shortcutKey": "R",
+        "civilopediaText": [
+            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
+            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
+            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+        ]
+	},
+	{
+		"name": "Railroad",
+"techRequired": "Railway",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
+		"shortcutKey": "R",
+        "civilopediaText": [{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
+	},
+
+	// Removals
+	// Any improvement that starts with 'Remove ' is automatically changed into
+	// the improvement that removes the terrainfeature after it.
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 2,
+		// Has no tech requirements as it can always be built
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 6,
+		"shortcutKey": "X"
+	},
+        {
+		"name": "Remove Marsh",
+		"turnsToBuild": 6,
+		"shortcutKey": "X"
+	},
+        {
+		"name": "Remove Jungle",
+		"turnsToBuild": 6,
+		"shortcutKey": "X"
+	},
+        {
+		"name": "Remove Hill",
+		"turnsToBuild": 6,
+		"shortcutKey": "X"
+	},
+
+	// These are unique and have unique in-game checks related to them
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "."
+	},
+    // Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
+    {
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "shortcutKey": "E",
+        "uniques": ["Unbuildable"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    },
+
+
+    // Great Person improvements
+	{
+		"name": "Renovated Kaaba",
+		"faith": 1,
+		"uniqueTo": "Hejaz",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Settlement",
+		"uniques": ["Great Improvement","Unpillagable","Irremovable"],
+		"shortcutKey": "K"
+	},
+	{
+		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 8,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+       	{
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 6,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 4,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Customs house",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 4,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Holy site",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 6,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+        	"Gain control over [all] tiles in a [1]-tile radius",
+			"Removes removable features when built",
+		]
+	},
+	// Unbuildable improvements
+	{
+		"name": "Ancient ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
+            "Unpillagable", "Irremovable", "Unbuildable"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+        {
+		"name": "Nomad Settlement",
+                                        "food": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [20]%",
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Can be built just outside your borders",
+        	"Gain control over [all] tiles in a [1]-tile radius",
+			"Removes removable features when built",
+		]
+	},
+        {
+		"name": "Moai",
+                "uniqueTo": "Rapa Nui",
+                                        "culture": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Gives a defensive bonus of [20]%",
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Can be built just outside your borders",
+        	"Gain control over [all] tiles in a [1]-tile radius",
+			"Removes removable features when built",
+		]
+	},
+        {
+		"name": "Pa",
+                "uniqueTo": "Maori",
+                "turnsToBuild": 7,
+				"food": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Removes removable features when built","[+1 Production] for each adjacent [Pa]"]
+	},
+        {
+		"name": "Mala e",
+                "uniqueTo": "Tui Tonga",
+                "turnsToBuild": 7,
+				"food": 1,
+				"production": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Removes removable features when built","[+1 Food] for each adjacent [Mala e]"]
+	},
+        {
+		"name": "Mbanza",
+                "production": 1,
+                "uniqueTo": "Kongo Kingdom",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Removes removable features when built","[+2 Food] for each adjacent [Mbanza]"]
+	},
+        {
+		"name": "Hare Paenga",
+                "uniqueTo": "Rapa Nui",
+                "turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Atoll"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Removes removable features when built","[+2 Faith] for each adjacent [Coast]","[+2 Faith] for each adjacent [Hare Paenga]","[+3 Faith] for each adjacent [Luxury resource]"]
+	},
+        {
+		"name": "Kalle",
+                "gold": 1,
+                "uniqueTo": "Afghanistan",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"turnsToBuild": 7,
+		"techRequired": "Gas Lighting",
+		"uniques": ["[+1 Production] for each adjacent [Mountain]","[+1 Gold] for each adjacent [Mountain]","Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Coastal Fort",
+		"uniqueTo": "Somalia",
+		"replaces": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Savannah","Mountain Land","Mud","Cold Soil"],
+		"turnsToBuild": 7,
+		"uniques": ["Can be built outside your borders","Adjacent enemy units ending their turn take [10] damage", "Gives a defensive bonus of [20]%"],
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
+]

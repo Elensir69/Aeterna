@@ -1,0 +1,3247 @@
+[
+	{
+		"name": "Religion - Islam",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+33]% Strength <within [4] tiles of a [Holy site]>","[+2 Culture] from every [Mosque]",
+			"Only available <in cities without a [Religion - Judaism]>","Only available <in cities without a [Religion - Christianity]>",
+		    "Only available <for [Syria Palestina] Civilizations>"]
+	},
+	{
+		"name": "Religion - Judaism",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+33]% Production when constructing [Civilian] units [in all cities]","[+2 Culture] from every [Synagogue]",
+			"Only available <in cities without a [Religion - Islam]>","Only available <in cities without a [Religion - Christianity]>",
+			"Only available <for [Syria Palestina] Civilizations>"]
+	},
+	{
+		"name": "Religion - Christianity",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+33]% Production when constructing [Infantry] units [in all cities]","[+2 Culture] from every [Cathedral]",
+			"Only available <in cities without a [Religion - Judaism]>","Only available <in cities without a [Religion - Islam]>",
+			"Only available <for [Syria Palestina] Civilizations>"]
+	},
+	{
+		"name": "Court - Bedouin - Syria",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+2 Food] from [Camel] tiles [in all cities]",
+			"Only available <in cities without a [Court - French - Syria]>","Only available <in cities without a [Court - Ottoman - Syria]>",
+			"Only available <for [Syria al-Sham] Civilizations>"]
+	},
+	{
+		"name": "Court - French - Syria",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
+			"Only available <in cities without a [Court - Bedouin - Syria]>","Only available <in cities without a [Court - Ottoman - Syria]>",
+			"Only available <for [Syria al-Sham] Civilizations>"]
+	},
+	{
+		"name": "Court - Ottoman - Syria",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
+			"Only available <in cities without a [Court - French - Syria]>","Only available <in cities without a [Court - Bedouin - Syria]>",
+			"Only available <for [Syria al-Sham] Civilizations>"]
+	},
+	{
+		"name": "Court - British - Levant",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
+			"Only available <in cities without a [Court - Jordan - Levant]>","Only available <in cities without a [Court - Maronite - Levant]>",
+			"Only available <for [Levantine Confederacy] Civilizations>"]
+	},
+	{
+		"name": "Court - Jordan - Levant",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+44]% Strength <vs [Camel] units>",
+			"Only available <in cities without a [Court - British - Levant]>","Only available <in cities without a [Court - Maronite - Levant]>",
+			"Only available <for [Levantine Confederacy] Civilizations>"]
+	},
+	{
+		"name": "Court - Maronite - Levant",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Comment [Enables the Maronite Church building]","Comment [Enables the Maronite Rifleman unit]",
+			"Only available <in cities without a [Court - British - Levant]>","Only available <in cities without a [Court - Jordan - Levant]>",
+			"Only available <for [Levantine Confederacy] Civilizations>"]
+	},
+	{
+		"name": "Court - Majlis al-Asha'ir - Transjordan",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Culture] from [House] tiles [in this city]",
+			"Only available <in cities without a [Court - Ottoman - Transjordan]>","Only available <in cities without a [Court - British - Transjordan]>",
+			"Only available <for [Transjordan] Civilizations>"]
+	},
+	{
+		"name": "Court - Ottoman - Transjordan",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
+			"Only available <in cities without a [Court - Majlis al-Asha'ir - Transjordan]>","Only available <in cities without a [Court - British - Transjordan]>",
+			"Only available <for [Transjordan] Civilizations>"]
+	},
+	{
+		"name": "Court - British - Transjordan",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
+			"Only available <in cities without a [Court - Ottoman - Transjordan]>","Only available <in cities without a [Court - Majlis al-Asha'ir - Transjordan]>",
+			"Only available <for [Transjordan] Civilizations>"]
+	},
+	{
+		"name": "Immigrant Colony - Chinese",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Immigrant Colony","Only available <in cities without a [Immigrant Colony - German]>","Only available <in cities without a [Immigrant Colony - Spaniard]>","Only available <in cities without a [Immigrant Colony - Italian]>",
+		"Only available <in cities without a [Immigrant Colony - Lebanese]>","Only available <in cities without a [Immigrant Colony - Polish]>","Only available <in cities without a [Immigrant Colony - Japanese]>",
+			"[+1 Food] from every [Mill]","[-34]% Gold cost of upgrading <for [Military] units>","Only available <for [LA] Civilizations>"]
+	},
+	{
+		"name": "Immigrant Colony - Japanese",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Immigrant Colony","Only available <in cities without a [Immigrant Colony - German]>","Only available <in cities without a [Immigrant Colony - Spaniard]>","Only available <in cities without a [Immigrant Colony - Chinese]>",
+		"Only available <in cities without a [Immigrant Colony - Lebanese]>","Only available <in cities without a [Immigrant Colony - Polish]>","Only available <in cities without a [Immigrant Colony - Italian]>",
+			"[+1 Culture] per [3] population [in all cities]","[+1 Faith] per [7] population [in all cities]","Only available <for [LA] Civilizations>"]
+	},
+	{
+		"name": "Immigrant Colony - Polish",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Immigrant Colony","Only available <in cities without a [Immigrant Colony - German]>","Only available <in cities without a [Immigrant Colony - Spaniard]>","Only available <in cities without a [Immigrant Colony - Chinese]>",
+		"Only available <in cities without a [Immigrant Colony - Lebanese]>","Only available <in cities without a [Immigrant Colony - Italian]>","Only available <in cities without a [Immigrant Colony - Japanese]>",
+			"Comment [Enables the Picador Infernal unit]","[+16]% Production when constructing [Light Cavalry] units [in all cities]","[+3]% Production when constructing [All] units [in this city]","Only available <for [LA] Civilizations>"]
+	},
+	{
+		"name": "Immigrant Colony - Lebanese",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Immigrant Colony","Only available <in cities without a [Immigrant Colony - German]>","Only available <in cities without a [Immigrant Colony - Spaniard]>","Only available <in cities without a [Immigrant Colony - Chinese]>",
+		"Only available <in cities without a [Immigrant Colony - Italian]>","Only available <in cities without a [Immigrant Colony - Polish]>","Only available <in cities without a [Immigrant Colony - Japanese]>",
+			"Comment [Enables the Galego unit]","[+2 Gold] from [House] tiles [in capital]","Only available <for [LA] Civilizations>"]
+	},
+	{
+		"name": "Immigrant Colony - Spaniard",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Immigrant Colony","Only available <in cities without a [Immigrant Colony - German]>","Only available <in cities without a [Immigrant Colony - Italian]>","Only available <in cities without a [Immigrant Colony - Chinese]>",
+		"Only available <in cities without a [Immigrant Colony - Lebanese]>","Only available <in cities without a [Immigrant Colony - Polish]>","Only available <in cities without a [Immigrant Colony - Japanese]>",
+			"Comment [Enables the Paisano unit]","[+22]% [Food] [in capital]","[+6]% [Production] [in capital]","[+3]% [Happiness] [in capital]","Only available <for [LA] Civilizations>"]
+	},
+	{
+		"name": "Immigrant Colony - German",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Immigrant Colony","Only available <in cities without a [Immigrant Colony - Italian]>","Only available <in cities without a [Immigrant Colony - Spaniard]>","Only available <in cities without a [Immigrant Colony - Chinese]>",
+		"Only available <in cities without a [Immigrant Colony - Lebanese]>","Only available <in cities without a [Immigrant Colony - Polish]>","Only available <in cities without a [Immigrant Colony - Japanese]>",
+			"[+37]% Production when constructing [Artillery] units [in all cities]","Only available <for [LA] Civilizations>"]
+	},
+	{
+		"name": "Immigrant Colony - Italian",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Immigrant Colony","Only available <in cities without a [Immigrant Colony - German]>","Only available <in cities without a [Immigrant Colony - Spaniard]>","Only available <in cities without a [Immigrant Colony - Chinese]>",
+		"Only available <in cities without a [Immigrant Colony - Lebanese]>","Only available <in cities without a [Immigrant Colony - Polish]>","Only available <in cities without a [Immigrant Colony - Japanese]>",
+			"[+1 Gold] per [2] population [in all cities]","Comment [Enables the Legione Agricola unit]","Only available <for [LA] Civilizations>"]
+	},
+	{
+		"name": "Council Lodge - Elder",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Council Lodge - Wise Mother]>","Only available <in cities without a [Council Lodge - Hunter]>","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]","Only available <for [Native American] Civilizations>"]
+	},
+	{
+		"name": "Council Lodge - Wise Mother",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Council Lodge - Hunter]>","Only available <in cities without a [Council Lodge - Elder]>","[+1 Food] per [3] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+5]% Production when constructing [All] units [in this city]","Only available <for [Native American] Civilizations>"]
+	},
+	{
+		"name": "Council Lodge - Hunter",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Council Lodge - Wise Mother]>","Only available <in cities without a [Council Lodge - Elder]>","[+22]% Production when constructing [All] units [in this city]","Only available <for [Native American] Civilizations>"]
+	},
+	{
+		"name": "Tribal Monument",
+		"is": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [African] Civilizations>"]
+	},
+	{
+		"name": "Regional Consulate",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+2 Faith] from every [Monument]","[+12]% Production when constructing [All] units [in this city]","Only available <for [Asian] Civilizations>"]
+	},
+	{
+		"name": "Songline",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from every [Monument]","[+6]% Production when constructing [Archaic Infantry] units [in this city]","Only available <for [Australian] Civilizations>"]
+	},
+	{
+		"name": "Voyage to Tonga",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Voyage to Aotearoa]>","Only available <in cities without a [Voyage to Taputapuātea]>","Only available <in cities without a [Voyage to Samoa]>",
+		"Only available <in cities without a [Voyage to Hawaiki]>",
+			"[+1 Gold] per [5] population [in all cities]","[+7]% Production when constructing [Archaic Infantry] units [in this city]","[+7]% Production when constructing [Water] units [in this city]",
+			"Only available <for [Polynesian] Civilizations>"]
+	},
+	{
+		"name": "Voyage to Samoa",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Voyage to Aotearoa]>","Only available <in cities without a [Voyage to Taputapuātea]>","Only available <in cities without a [Voyage to Hawaiki]>",
+		"Only available <in cities without a [Voyage to Tonga]>",
+			"[+1 Gold] per [5] population [in all cities]","[+15]% [Happiness] [in this city]","[+7]% Production when constructing [Water] units [in this city]",
+			"Only available <for [Polynesian] Civilizations>"]
+	},
+	{
+		"name": "Voyage to Taputapuātea",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Voyage to Aotearoa]>","Only available <in cities without a [Voyage to Hawaiki]>","Only available <in cities without a [Voyage to Samoa]>",
+		"Only available <in cities without a [Voyage to Tonga]>",
+			"[+1 Gold] per [5] population [in all cities]","[+1 Gold] from every [Mine]","[+7]% Production when constructing [Water] units [in this city]",
+			"Only available <for [Polynesian] Civilizations>"]
+	},
+	{
+		"name": "Voyage to Aotearoa",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Voyage to Hawaiki]>","Only available <in cities without a [Voyage to Taputapuātea]>","Only available <in cities without a [Voyage to Samoa]>",
+		"Only available <in cities without a [Voyage to Tonga]>",
+			"[+1 Gold] per [5] population [in all cities]","[+1 Science] per [6] population [in all cities]","[+7]% Production when constructing [Water] units [in this city]",
+			"Only available <for [Polynesian] Civilizations>"]
+	},
+	{
+		"name": "Voyage to Hawaiki",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Voyage to Aotearoa]>","Only available <in cities without a [Voyage to Taputapuātea]>","Only available <in cities without a [Voyage to Samoa]>",
+		"Only available <in cities without a [Voyage to Tonga]>",
+			"[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+7]% Production when constructing [Water] units [in this city]",
+			"Only available <for [Polynesian] Civilizations>"]
+	},
+	{
+		"name": "National Court",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
+			"Only available <for [Non Middle Eastern] Civilizations>"]
+	},
+	{
+		"name": "Masjid Raya",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
+			"Only available <for [SEA] Civilizations>"]
+	},
+	{
+		"name": "Court - British - Persia",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
+			"Only available <in cities without a [Court - Russia - Persia]>","Only available <in cities without a [Court - Hungary - Persia]>",
+			"Only available <for [Persia] Civilizations>"]
+	},
+	{
+		"name": "Court - British - Raj",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
+			"Only available <for [British Raj] Civilizations>"]
+	},
+	{
+		"name": "Court - Hungary - Persia",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from every [Mill]","[+1 Food] per [3] population [in all cities]","[+1 Gold] per [8] population [in all cities]",
+			"Only available <in cities without a [Court - Russia - Persia]>","Only available <in cities without a [Court - British - Persia]>",
+			"Only available <for [Persia] Civilizations>"]
+	},
+	{
+		"name": "Court - Russia - Persia",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+24]% Production when constructing [Infantry] units [in all cities]",
+			"Only available <in cities without a [Court - British - Persia]>","Only available <in cities without a [Court - Hungary - Persia]>",
+			"Only available <for [Persia] Civilizations>"]
+	},
+	{
+		"name": "Court - British - Afghan",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
+			"Only available <in cities without a [Court - Russia - Afghan]>","Only available <in cities without a [Court - Persian - Afghan]>",
+			"Only available <for [Afghanistan] Civilizations>"]
+	},
+	{
+		"name": "Court - Russia - Afghan",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+24]% Production when constructing [Infantry] units [in all cities]",
+			"Only available <in cities without a [Court - British - Afghan]>","Only available <in cities without a [Court - Persian - Afghan]>",
+			"Only available <for [Afghanistan] Civilizations>"]
+	},
+	{
+		"name": "Court - Persian - Afghan",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[1] free [Sardar] units appear <upon discovering [Dynamite] technology>","[4] free [Janbaz] units appear <upon discovering [Dynamite] technology>",
+			"Only available <in cities without a [Court - Russia - Afghan]>","Only available <in cities without a [Court - British - Afghan]>",
+			"Only available <for [Afghanistan] Civilizations>"]
+	},
+	{
+		"name": "Court - Hungary - Ottoman",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from every [Mill]","[+1 Food] per [3] population [in all cities]","[+1 Gold] per [8] population [in all cities]",
+			"Only available <in cities without a [Court - French - Ottoman]>","Only available <in cities without a [Court - German - Ottoman]>",
+			"Only available <for [The Ottomans] Civilizations>"]
+	},
+	{
+		"name": "Court - French - Ottoman",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
+			"Only available <in cities without a [Court - Hungary - Ottoman]>","Only available <in cities without a [Court - German - Ottoman]>",
+			"Only available <for [The Ottomans] Civilizations>"]
+	},
+	{
+		"name": "Court - German - Ottoman",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Free [Krupp Steel Cannon] appears <upon discovering [Mining] technology>","[-20]% maintenance costs <for [Land] units>",
+			"Only available <in cities without a [Court - French - Ottoman]>","Only available <in cities without a [Court - Hungary - Ottoman]>",
+			"Only available <for [The Ottomans] Civilizations>"]
+	},
+	{
+		"name": "Court - Khedive - Sudan",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
+			"Only available <in cities without a [Court - Nubian - Sudan]>","Only available <in cities without a [Court - British - Sudan]>",
+			"Only available <for [Sudan] Civilizations>"]
+	},
+	{
+		"name": "Court - Nubian - Sudan",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from every [Mill]","[+1 Food] per [3] population [in all cities]","[+1 Gold] per [8] population [in all cities]",
+			"Only available <in cities without a [Court - Khedive - Sudan]>","Only available <in cities without a [Court - British - Sudan]>",
+			"Only available <for [Sudan] Civilizations>"]
+	},
+	{
+		"name": "Court - British - Sudan",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
+			"Only available <in cities without a [Court - Nubian - Sudan]>","Only available <in cities without a [Court - Khedive - Sudan]>",
+			"Only available <for [Sudan] Civilizations>"]
+	},
+	{
+		"name": "Court - French - Egypt",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
+			"Only available <in cities without a [Court - Ottoman - Egypt]>","Only available <in cities without a [Court - British - Egypt]>",
+			"Only available <for [Egypt] Civilizations>"]
+	},
+	{
+		"name": "Court - Ottoman - Egypt",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
+			"Only available <in cities without a [Court - French - Egypt]>","Only available <in cities without a [Court - British - Egypt]>",
+			"Only available <for [Egypt] Civilizations>"]
+	},
+	{
+		"name": "Court - British - Egypt",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
+			"Only available <in cities without a [Court - Ottoman - Egypt]>","Only available <in cities without a [Court - French - Egypt]>",
+			"Only available <for [Egypt] Civilizations>"]
+	},
+	{
+		"name": "Court - British - Mughal",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
+			"Only available <in cities without a [Court - Portuguese - Mughal]>","Only available <in cities without a [Court - Danish - Mughal]>",
+			"Only available <for [The Mughals] Civilizations>"]
+	},
+	{
+		"name": "Court - Portuguese - Mughal",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Culture] per [3] population [in all cities]",
+			"Only available <in cities without a [Court - British - Mughal]>","Only available <in cities without a [Court - Danish - Mughal]>",
+			"Only available <for [The Mughals] Civilizations>"]
+	},
+	{
+		"name": "Court - Danish - Mughal",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Water] units [in this city]","[+1 Culture] per [6] population [in all cities]",
+			"Only available <in cities without a [Court - Portuguese - Mughal]>","Only available <in cities without a [Court - British - Mughal]>",
+			"Only available <for [The Mughals] Civilizations>"]
+	},
+	{
+		"name": "Court - Persian - Turkic",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Court - Russia - Turkic]>","Only available <in cities without a [Court - China - Turkic]>",
+			"[1] free [Sardar] units appear <upon discovering [Dynamite] technology>","[4] free [Janbaz] units appear <upon discovering [Dynamite] technology>","Only available <for [Turkestan] Civilizations>"]
+	},
+	{
+		"name": "Court - Russia - Turkic",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Court - Persian - Turkic]>","Only available <in cities without a [Court - China - Turkic]>",
+			"Comment [Enables the Frontovik unit]","Comment [Enables the Canton School building]","[+3]% Production when constructing [All] units [in this city]","Only available <for [Turkestan] Civilizations>"]
+	},
+	{
+		"name": "Court - China - Turkic",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Court - Russia - Turkic]>","Only available <in cities without a [Court - Persian - Turkic]>",
+			"[+1 Gold] per [5] population [in all cities]","Comment [Enables the Kansu Brave unit]","Only available <for [Turkestan] Civilizations>"]
+	},
+	{
+		"name": "Court - Ottoman - Circassia",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
+			"Only available <in cities without a [Court - Russia - Circassia]>","Only available <in cities without a [Court - Circassian Tribes - Circassia]>",
+			"Only available <for [Circassia] Civilizations>"]
+	},
+	{
+		"name": "Court - Russia - Circassia",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+24]% Production when constructing [Infantry] units [in all cities]",
+			"Only available <in cities without a [Court - Ottoman - Circassia]>","Only available <in cities without a [Court - Circassian Tribes - Circassia]>",
+			"Only available <for [Circassia] Civilizations>"]
+	},
+    {
+		"name": "Court - Circassian Tribes - Circassia",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+2 Food] from [Camel] tiles [in this city]",
+			"Only available <in cities without a [Court - Russia - Circassia]>","Only available <in cities without a [Court - Ottoman - Circassia]>",
+			"Only available <for [Circassia] Civilizations>"]
+	},
+	{
+		"name": "Court - Kingdom of Saudi Arabia - Bedouin",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+2 Food] from [Camel] tiles [in this city]",
+			"Only available <in cities without a [Court - Hejaz - Bedouin]>","Only available <in cities without a [Court - Oman - Bedouin]>",
+			"Only available <for [The Bedouins] Civilizations>"]
+	},
+	{
+		"name": "Court - Hejaz - Bedouin",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+80]% Strength <vs [Barbarian] units>",
+			"Only available <in cities without a [Court - Kingdom of Saudi Arabia - Bedouin]>","Only available <in cities without a [Court - Oman - Bedouin]>",
+			"Only available <for [The Bedouins] Civilizations>"]
+	},
+	{
+		"name": "Court - Oman - Bedouin",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+2 Food] from [Camel] tiles [in this city]",
+			"Only available <in cities without a [Court - Hejaz - Bedouin]>","Only available <in cities without a [Court - Kingdom of Saudi Arabia - Bedouin]>",
+			"Only available <for [The Bedouins] Civilizations>"]
+	},
+	{
+		"name": "Court - Russia - Kazakh",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+24]% Production when constructing [Infantry] units [in all cities]",
+			"Only available <in cities without a [Court - Turkic - Kazakh]>","Only available <in cities without a [Court - Kazakh Nomads - Kazakh]>",
+			"Only available <for [The Kazakhs] Civilizations>"]
+	},
+	{
+		"name": "Court - Turkic - Kazakh",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Faith] from [Hunter Lodge] tiles [in this city]",
+			"Only available <in cities without a [Court - Russia - Kazakh]>","Only available <in cities without a [Court - Kazakh Nomads - Kazakh]>",
+			"Only available <for [The Kazakhs] Civilizations>"]
+	},
+	{
+		"name": "Court - Kazakh Nomads - Kazakh",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [House] tiles [in this city]",
+			"Only available <in cities without a [Court - Turkic - Kazakh]>","Only available <in cities without a [Court - Russia - Kazakh]>",
+			"Only available <for [The Kazakhs] Civilizations>"]
+	},
+	{
+		"name": "Court - Spanish - Morocco",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [House] tiles [in this city]",
+			"Only available <in cities without a [Court - French - Morocco]>","Only available <in cities without a [Court - British - Morocco]>",
+			"Only available <for [Morocco] Civilizations>"]
+	},
+	{
+		"name": "Court - French - Morocco",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
+			"Only available <in cities without a [Court - Spanish - Morocco]>","Only available <in cities without a [Court - British - Morocco]>",
+			"Only available <for [Morocco] Civilizations>"]
+	},
+	{
+		"name": "Court - British - Morocco",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
+			"Only available <in cities without a [Court - French - Morocco]>","Only available <in cities without a [Court - Spanish - Morocco]>",
+			"Only available <for [Morocco] Civilizations>"]
+	},
+	{
+		"name": "Court - Ottoman - Trucial States",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
+			"Only available <in cities without a [Court - Oman - Trucial States]>","Only available <in cities without a [Court - British - Trucial States]>",
+			"Only available <for [Trucial States] Civilizations>"]
+	},
+	{
+		"name": "Court - Oman - Trucial States",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+44]% Strength <vs [Camel] units>",
+			"Only available <in cities without a [Court - Ottoman - Trucial States]>","Only available <in cities without a [Court - British - Trucial States]>",
+			"Only available <for [Trucial States] Civilizations>"]
+	},
+	{
+		"name": "Court - British - Trucial States",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
+			"Only available <in cities without a [Court - Oman - Trucial States]>","Only available <in cities without a [Court - Ottoman - Trucial States]>",
+			"Only available <for [Trucial States] Civilizations>"]
+	},
+	{
+		"name": "Court - Oman - Yemen",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+44]% Strength <vs [Camel] units>",
+			"Only available <in cities without a [Court - Ottoman - Yemen]>","Only available <in cities without a [Court - Hejaz - Yemen]>",
+			"Only available <for [Yemen] Civilizations>"]
+	},
+	{
+		"name": "Court - Ottoman - Yemen",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
+			"Only available <in cities without a [Court - Oman - Yemen]>","Only available <in cities without a [Court - Hejaz - Yemen]>",
+			"Only available <for [Yemen] Civilizations>"]
+	},
+	{
+		"name": "Court - Hejaz - Yemen",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+80]% Strength <vs [Barbarian] units>",
+			"Only available <in cities without a [Court - Ottoman - Yemen]>","Only available <in cities without a [Court - Oman - Yemen]>",
+			"Only available <for [Yemen] Civilizations>"]
+	},
+	{
+		"name": "Court - French - FNA",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
+			"Only available <for [French North Africa] Civilizations>"]
+	},
+	{
+		"name": "Court - French - Karamanli",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
+			"Only available <in cities without a [Court - Kingdom of Saudi Arabia - Karamanli]>","Only available <in cities without a [Court - Ottoman - Karamanli]>",
+			"Only available <for [The Karamanli] Civilizations>"]
+	},
+	{
+		"name": "Court - Kingdom of Saudi Arabia - Karamanli",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+2 Food] from [Camel] tiles [in all cities]",
+			"Only available <in cities without a [Court - French - Karamanli]>","Only available <in cities without a [Court - Ottoman - Karamanli]>",
+			"Only available <for [The Karamanli] Civilizations>"]
+	},
+	{
+		"name": "Court - Ottoman - Karamanli",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
+			"Only available <in cities without a [Court - Kingdom of Saudi Arabia - Karamanli]>","Only available <in cities without a [Court - French - Karamanli]>",
+			"Only available <for [The Karamanli] Civilizations>"]
+	},
+	{
+		"name": "Court - French - Bukhara",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
+			"Only available <in cities without a [Court - Russia - Bukhara]>","Only available <in cities without a [Court - Hungary - Bukhara]>",
+			"Only available <for [Bukhara] Civilizations>"]
+	},
+	{
+		"name": "Court - Russia - Bukhara",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+24]% Production when constructing [Infantry] units [in all cities]",
+			"Only available <in cities without a [Court - French - Bukhara]>","Only available <in cities without a [Court - Hungary - Bukhara]>",
+			"Only available <for [Bukhara] Civilizations>"]
+	},
+	{
+		"name": "Court - Hungary - Bukhara",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from every [Mill]","[+1 Food] per [3] population [in all cities]","[+1 Gold] per [8] population [in all cities]",
+			"Only available <in cities without a [Court - Russia - Bukhara]>","Only available <in cities without a [Court - French - Bukhara]>",
+			"Only available <for [Bukhara] Civilizations>"]
+	},
+	{
+		"name": "Court - French - Dervish",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
+			"Only available <in cities without a [Court - Ottoman - Dervish]>","Only available <in cities without a [Court - Sufi - Dervish]>",
+			"Only available <for [The Dervish] Civilizations>"]
+	},
+	{
+		"name": "Court - Ottoman - Dervish",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
+			"Only available <in cities without a [Court - French - Dervish]>","Only available <in cities without a [Court - Sufi - Dervish]>",
+			"Only available <for [The Dervish] Civilizations>"]
+	},
+	{
+		"name": "Court - Sufi - Dervish",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Culture] from every [Temple]","[+1 Faith] per [7] population [in all cities]",
+			"Only available <in cities without a [Court - Ottoman - Dervish]>","Only available <in cities without a [Court - French - Dervish]>",
+			"Only available <for [The Dervish] Civilizations>"]
+	},
+	{
+		"name": "Court - British - Somalia",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
+			"Only available <in cities without a [Court - Dutch - Somalia]>","Only available <in cities without a [Court - Portuguese - Somalia]>",
+			"Only available <for [Somalia] Civilizations>"]
+	},
+	{
+		"name": "Court - Dutch - Somalia",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+5 Gold] from every [Bank]","[+1 Culture] from every [Bank]",
+			"Only available <in cities without a [Court - British - Somalia]>","Only available <in cities without a [Court - Portuguese - Somalia]>",
+			"Only available <for [Somalia] Civilizations>"]
+	},
+	{
+		"name": "Court - Portuguese - Somalia",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Culture] per [3] population [in all cities]",
+			"Only available <in cities without a [Court - Dutch - Somalia]>","Only available <in cities without a [Court - British - Somalia]>",
+			"Only available <for [Somalia] Civilizations>"]
+	},
+	{
+		"name": "Court - Prussian - Darfur",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Culture] from every [Temple]","[+1 Faith] per [7] population [in all cities]",
+			"Only available <in cities without a [Court - Spanish - Darfur]>","Only available <in cities without a [Court - Ottoman - Darfur]>",
+			"Only available <for [Darfur] Civilizations>"]
+	},
+	{
+		"name": "Court - Spanish - Darfur",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [House] tiles [in this city]",
+			"Only available <in cities without a [Court - Prussian - Darfur]>","Only available <in cities without a [Court - Ottoman - Darfur]>",
+			"Only available <for [Darfur] Civilizations>"]
+	},
+	{
+		"name": "Court - Ottoman - Darfur",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
+			"Only available <in cities without a [Court - Spanish - Darfur]>","Only available <in cities without a [Court - Prussian - Darfur]>",
+			"Only available <for [Darfur] Civilizations>"]
+	},
+	{
+		"name": "Court - Venetian - Busaid",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from every [Temple]","[+1 Faith] per [4] population [in all cities]",
+			"Only available <in cities without a [Court - British - Busaid]>","Only available <in cities without a [Court - German - Busaid]>",
+			"Only available <for [The Busaid] Civilizations>"]
+	},
+	{
+		"name": "Court - British - Busaid",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
+			"Only available <in cities without a [Court - Venetian - Busaid]>","Only available <in cities without a [Court - German - Busaid]>",
+			"Only available <for [The Busaid] Civilizations>"]
+	},
+	{
+		"name": "Court - German - Busaid",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Free [Krupp Steel Cannon] appears <upon discovering [Mining] technology>","[-20]% maintenance costs <for [Land] units>",
+			"Only available <in cities without a [Court - British - Busaid]>","Only available <in cities without a [Court - Venetian - Busaid]>",
+			"Only available <for [The Busaid] Civilizations>"]
+	},
+	{
+		"name": "Court - Wahhabi - Kingdom of Saudi Arabia",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Happiness] from every [Temple]","[+1 Happiness] per [4] population [in all cities]",
+			"Only available <in cities without a [Court - Kingdom of Saudi Arabia Tribes - Kingdom of Saudi Arabia]>","Only available <in cities without a [Court - British - Kingdom of Saudi Arabia]>",
+			"Only available <for [Kingdom of Saudi Arabia] Civilizations>"]
+	},
+	{
+		"name": "Court - Kingdom of Saudi Arabia Tribes - Kingdom of Saudi Arabia",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+2 Food] from [Camel] tiles [in all cities]",
+			"Only available <in cities without a [Court - Wahhabi - Kingdom of Saudi Arabia]>","Only available <in cities without a [Court - British - Kingdom of Saudi Arabia]>",
+			"Only available <for [Kingdom of Saudi Arabia] Civilizations>"]
+	},
+	{
+		"name": "Court - British - Kingdom of Saudi Arabia",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
+			"Only available <in cities without a [Court - Kingdom of Saudi Arabia Tribes - Kingdom of Saudi Arabia]>","Only available <in cities without a [Court - Wahhabi - Kingdom of Saudi Arabia]>",
+			"Only available <for [Kingdom of Saudi Arabia] Civilizations>"]
+	},
+	/////
+	{
+		"name": "Canton School",
+		"isNationalWonder":true,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Only available <in cities with a [Court - Russia - Turkic]>","Comment [Enables the Frontovik unit]"],
+		"cost": 100
+	},
+	{
+		"name": "Maronite Church",
+		"faith": 2,
+		"isNationalWonder":true,
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 2,
+		"uniques": ["Only available <in cities with a [Court - Maronite - Levant]>","Comment [Enables the Maronite Rifleman unit]","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Benge",
+		"uniqueTo": "Azande",
+        "replaces": "Courthouse",
+		"maintenance": 3,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities","All newly-trained [Melee] units [in all cities] receive the [Abinza] promotion"],
+		"requiredTech": "Rifling"
+	},
+	{
+		"name": "Provincial Saray",
+		"uniqueTo": "Syria al-Sham",
+        "replaces": "Monument",
+		"culture": 2,
+		"prodcution": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 0,
+		"uniques": ["Provides [1] [National Choice]","Indicates the capital city"]
+	},
+{
+		"name": "Jazz Section",
+                "uniqueTo": "Czechoslovakia",
+                "replaces": "Opera House",
+		"culture": 4,
+                "happiness": 2,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Opera",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+
+{
+		"name": "Red Fort",
+                "uniqueTo": "The Mughals",
+                "replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 28,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Scientific Theory",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+{
+		"name": "Qalcad",
+                "uniqueTo": "The Dervish",
+                "replaces": "Arsenal",
+		"cost": 300,
+		"cityStrength": 9,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Castle",
+		"requiredTech": "Artillery",
+		"uniques": ["New [Military] units start with [10] XP [in this city]","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Hogan Lodge",
+		"uniqueTo": "Navajo",
+        "replaces": "Workshop",
+		"happiness": 1,
+		"gold":2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Rifling"
+	},
+        {
+		"name": "Manhattan Project",
+		"cost": 750,
+		"isNationalWonder": true,
+		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion", "Cannot be hurried"],
+		"requiredTech": "Atomic Bomb"
+	},
+        {
+		"name": "Stadium",
+		"happiness": 4,
+		"requiredBuilding": "Theatre",
+		"maintenance": 2,
+		"requiredTech": "Telecommunications"
+	},
+        {
+		"name": "Safari",
+                "happiness": 3,
+                "uniqueTo": "Cape Colony",
+		"maintenance": 1,
+		"requiredTech": "Biology"
+	},
+        {
+		"name": "Propaganda Village",
+		"culture": 2,
+                "happiness": 1,
+                "uniqueTo": "North Korea",
+		"maintenance": 2,
+		"requiredTech": "Telecommunications"
+	},
+        {
+		"name": "Immigrant Colony",
+        "uniqueTo": "Uruguay",
+        "uniques": ["[1] free [Picador Infernal] units appear","[1] free [Legione Agricola] units appear"],
+        "isNationalWonder": true,
+		"requiredTech": "Novel"
+	},
+        {
+		"name": "Vehicle Factory",
+		"hurryCostModifier": 25,
+                "requiredResource": "Lithium",
+		"uniques": ["[+1 Production] from [House] tiles [in this city]"],
+		"requiredTech": "Smartphones"
+	},
+        {
+		"name": "SixDegrees",
+		"hurryCostModifier": 25,
+                "requiredResource": "Computer",
+		"uniques": ["[+1 Science] from [House] tiles [in this city]"],
+		"requiredTech": "Social Media"
+	},
+        {
+		"name": "Connection Network",
+		"hurryCostModifier": 25,
+                "requiredResource": "Computer",
+		"uniques": ["[+1 Happiness] from [House] tiles [in this city]"],
+		"requiredTech": "Internet"
+	},
+        {
+		"name": "First Posts",
+		"hurryCostModifier": 25,
+                "requiredResource": "Computer",
+		"uniques": ["[+1 Culture] from [House] tiles [in this city]"],
+		"requiredTech": "Internet"
+	},
+        {
+		"name": "Email",
+		"hurryCostModifier": 25,
+                "requiredResource": "Computer",
+		"uniques": ["[+1 Happiness] from [House] tiles [in this city]"],
+		"requiredTech": "Social Media"
+	},
+        {
+		"name": "Havn",
+                "requiredTech": "Settlement"
+                "uniqueTo": "Denmark",
+                "uniques": ["[+10]% Production when constructing [Water] units [in this city]","[1] free [Worker] units appear <with [100]% chance>"],
+	},
+        {
+		"name": "Slave Market",
+                "requiredTech": "Settlement"
+                "uniques": ["Unbuildable","Unsellable","Free [Slave] appears"],
+	},
+        {
+		"name": "Pillaged Town",
+                "requiredTech": "Settlement"
+                "uniques": ["Unbuildable","Unsellable","[1] free [Worker] units appear <with [100]% chance>"],
+	},
+        {
+		"name": "Central Industry",
+                "requiredTech": "Settlement"
+                "uniques": ["Unbuildable","Unsellable","[1] free [Line Infantry] units appear <with [100]% chance>"],
+	},
+        
+        {
+		"name": "Tillaegscenter",
+                "uniqueTo": "Denmark",
+                "requiredTech": "Combined Arms",
+                "requiredBuilding": "Havn",
+                "uniques": ["[+10]% Production when constructing [Water] units [in this city]","[1] free [Worker] units appear <with [100]% chance>"],
+	},
+        {
+		"name": "Military Academy",
+		"hurryCostModifier": 0,
+		"uniques": ["New [Military] units start with [35] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Synthetic Rubber"
+	},
+        {
+		"name": "Hydro Plant",
+		"requiredResource": "Aluminum",
+		"hurryCostModifier": 0,
+		"maintenance": 3,
+		"uniques": ["Must be on [River]","[+1 Production] from [River] tiles [in this city]"],
+		"requiredTech": "Synthetic Rubber"
+	},
+        {
+		"name": "Public School",
+		"science": 3,
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] from [House] tiles [in this city]", "Only available <in cities without a [Private School]>"],
+		"requiredTech": "Sanitation"
+	},
+
+        
+        {
+		"name": "Private School",
+		"gold": 3,
+		"specialistSlots": {"Scientist": 1},
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] from [House] tiles [in this city]", "Only available <in cities without a [Public School]>"],
+		"requiredTech": "Sanitation"
+	},
+        {
+		"name": "Solar Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"maintenance": 3,
+		"requiredTech": "Enigma",
+		"uniques": ["Must be next to [Desert]", "Only available <in cities without a [Nuclear Plant]>"]
+	},
+        {
+		"name": "Recycling Center",
+		"maintenance": 3,
+		"requiredTech": "Enigma",
+		"uniques": ["Provides [2] [Aluminum]","Limited to [5] per Civilization"]
+	},
+        {
+		"name": "Lithium Race",
+		"maintenance": 1,
+		"requiredTech": "Smartphones",
+		"uniques": ["Provides [2] [Lithium]","Limited to [15] per Civilization"]
+	},
+        {
+		"name": "Nuclear Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"maintenance": 3,
+		"requiredResource": "Uranium",
+		"requiredTech": "Nuclear Energy",
+		"uniques": ["Only available <in cities without a [Solar Plant]>"]
+	},
+        {
+		"name": "Communist Wall",
+		"cost": 500,
+                "production": 3,
+		"cityStrength": 25,
+		"cityHealth": 60,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Trenchs",
+		"requiredTech": "Reconstruction",
+		"uniques": ["Destroyed when the city is captured", "Only available <in cities without a [Capitalist Wall]>"]
+	},
+        {
+		"name": "Capitalist Wall",
+		"cost": 500,
+                "gold": 5,
+                "happiness": 2,
+		"cityStrength": 25,
+		"cityHealth": 60,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Trenchs",
+		"requiredTech": "Reconstruction",
+		"uniques": ["Destroyed when the city is captured", "Only available <in cities without a [Communist Wall]>"]
+	},
+        {
+		"name": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Anesthesia",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Ligne Konstantinos",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Anesthesia",
+		"uniques": ["Destroyed when the city is captured", "Unbuildable", "[+3 Production] from [Barbed Wire] tiles [in all cities]", "[+2 Production] from [Trench] tiles [in this city]",
+		"Enemy [Military] units must spend [3] extra movement points when inside your territory"]
+	},
+        {
+		"name": "Spice Shop",
+        "uniqueTo": "Somalia",
+		"maintenance": 3,
+		"requiredTech": "Fridge",
+		"uniques": ["Provides [1] [Spices]","Provides [1] [Incense]","Limited to [2] per Civilization"]
+	},
+        {
+		"name": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Scientific Theory",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Arsenal",
+		"cost": 300,
+		"cityStrength": 9,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Castle",
+		"requiredTech": "Artillery",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Trenchs",
+		"cost": 300,
+		"cityStrength": 15,
+		"cityHealth": 40,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Arsenal",
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Rubber Plantation",
+                "uniqueTo": "French Indochina",
+                "replaces": "Factory",
+		"cost": 380,
+		"production": 5,
+                "gold": 3,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Electricity"
+	},
+        {
+		"name": "Kasbah",
+                "uniqueTo": "Morocco",
+                "replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 27,
+                "gold": 2,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Scientific Theory",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "General Store",
+		"uniqueTo": "United States of America",
+        "replaces": "Market",
+		"gold": 3,
+		"food": 1,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+		{
+		"name": "Ruines",
+		"uniqueTo": "French Republic",
+        "replaces": "Market",
+		"gold": -3,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["New [Military] units start with [40] XP [in this city]", "Destroyed when the city is captured", "[+25]% Production when constructing [Military] units [in this city]"],
+		"requiredTech": "Vaccine"
+	},
+        {
+		"name": "Stockade",
+                "gold": 2,
+                "uniqueTo": "Colony of Victoria",
+                "replaces": "Military Academy",
+		"hurryCostModifier": 0,
+		"uniques": ["New [Military] units start with [35] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Synthetic Rubber"
+	},
+	{
+		"name": "Khan al-Tijara",
+		"uniqueTo": "Levantine Confederacy",
+        "replaces": "Market",
+		"gold": 2,
+		"faith": 1,
+		"culture": 1,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+	{
+		"name": "Cigar Factory",
+		"uniqueTo": "Cuba",
+        "replaces": "Factory",
+		"cost": 360,
+		"production": 4,
+		"food": -1,
+		"happiness": 3,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"hurryCostModifier": 0,
+		"requiredTech": "Electricity"
+	},
+        {
+		"name": "Kyaung",
+                "uniqueTo": "Burma",
+                "replaces": "University",
+		"maintenance": 2,
+                "faith": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+1 Faith] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Archaeology"
+	},
+        {
+		"name": "Snow Bunker",
+                "uniqueTo": "Finland",
+                "replaces": "Trenchs",
+		"cost": 300,
+		"cityStrength": 15,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Arsenal",
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Old Royal Palace",
+                "uniqueTo": "Eastern Roman Empire",
+                "replaces": "Hermitage",
+		"cost": 125,
+		"percentStatBonus": {"culture": 50},
+		"culture": 3,
+                "science": 2,
+                "faith": 2,
+		"isNationalWonder": true,
+		"uniques": ["Cost increases by [25] per owned city"],
+		"requiredTech": "Electricity"
+	},
+        {
+		"name": "Kulla",
+                "culture": 2,
+                "happiness": 1,
+                "uniqueTo": "Albania",
+                "replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Scientific Theory",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Chitalishte",
+                "uniqueTo": "Bulgarian Empire",
+                "replaces": "Opera House",
+		"culture": 5,
+                "happiness": 1,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Opera",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Rumah Panggung",
+                "uniqueTo": "Langkat",
+                "replaces": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Faith] per [3] population [in this city]","Destroyed when the city is captured"],
+		"requiredTech": "Opera"
+	},
+	{
+		"name": "Majlis",
+		"uniqueTo": "Trucial States",
+                "replaces": "Courthouse",
+		"maintenance": 2,
+		"science": 2,
+		"culture": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Rifling"
+	},
+
+        {
+		"name": "Madrasah",
+                "uniqueTo": "Egypt",
+                "replaces": "Public School",
+		"faith": 3,
+                "science": 4,
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Faith] from [House] tiles [in this city]", "Only available <in cities without a [Private School]>"],
+		"requiredTech": "Sanitation"
+	},
+        {
+		"name": "Penal Colony",
+                "uniqueTo": "Colony of New South Wales",
+                "replaces": "Courthouse",
+                "production": 2,
+                "gold": 2,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Rifling"
+	},
+        {
+		"name": "Consulate",
+                "uniqueTo": "Nationalist China",
+                "replaces": "Courthouse",
+                "culture": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Rifling"
+	},
+        {
+		"name": "Mining Camp",
+                "uniqueTo": "Bolivia",
+                "gold": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Mining"
+	},
+        {
+		"name": "Rova",
+                "uniqueTo": "Merina Kingdom",
+                "replaces": "Monument",
+		"culture": 2,
+                "happiness": 1,
+		"cost": 42,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Narkomat",
+                "uniqueTo": "Soviet Union",
+                "replaces": "National Visitor Center",
+		"culture": 2,
+                "production": 4, 
+                "gold": 4,
+                "requiredTech": "Coexistency",
+		"cost": 400,
+		"hurryCostModifier": 20,
+		"uniques": ["Destroyed when the city is captured"]
+	}
+        {
+		"name": "Puskesmas",
+                "uniqueTo": "Indonesia",
+                "replaces": "Hospital",
+		"food": 3,
+		"hurryCostModifier": 10,
+		"requiredTech": "Transfusion"
+	},
+        {
+		"name": "Bomb Shelter",
+		"cost": 500,
+		"cityStrength": 20,
+		"cityHealth": 60,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Trenchs",
+		"requiredTech": "Coexistency",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Bionic Shield",
+		"cost": 500,
+		"cityStrength": 35,
+		"cityHealth": 110,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Bomb Shelter",
+		"requiredTech": "Biodefense",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "National Visitor Center",
+		"culture": 2,
+                "production": 4,
+                "requiredTech": "Coexistency",
+		"cost": 400,
+		"hurryCostModifier": 20,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+{
+		"name": "Spomenik",
+                "uniqueTo": "Yugoslavia",
+                "replaces": "Monument",
+		"culture": 2,
+                "happiness": 1,
+		"cost": 35,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Darbar",
+		"uniqueTo": "Maratha",
+        "replaces": "Courthouse",
+		"maintenance": 3,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities","New [Military] units start with [10] XP [in this city]","[+10]% Production when constructing [All] units [in this city]",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Rifling"
+	},
+        {
+		"name": "Water Puppet Theater",
+               "uniqueTo": "Vietnam",
+                "replaces": "Opera House",
+		"culture": 6,
+		"specialistSlots": {"Artist": 2},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Opera",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Chaebol",
+                "uniqueTo": "South Korea",
+                "replaces": "Factory",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+                "uniques": ["[+1 Production] from [Mine] tiles [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Electricity"
+	},
+        {
+		"name": "Swiss Bank",
+                "uniqueTo": "Alps' Confederation",
+                "replaces": "Bank",
+		"gold": 4,
+		"specialistSlots": {"Merchant": 3},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Electricity"
+	},
+	        {
+		"name": "Siège Social",
+                "uniqueTo": "High Kingdom of the North",
+                "replaces": "Bank",
+		"gold": 4,
+		"specialistSlots": {"Merchant": 3},
+		"greatPersonPoints": {"Great Merchant": 5},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Electricity"
+	},
+		        {
+		"name": "Vodkaprom",
+                "uniqueTo": "Russia",
+                "replaces": "Bank",
+                "uniques": ["Provides [2] [Wine] <with [100]% chance>","Unsellable","[+2 Gold] from [Slave Labor Plantation] tiles [in this city]"],
+		"specialistSlots": {"Merchant": 3},
+		"greatPersonPoints": {"Great Merchant": 7},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": -25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Electricity"
+	},
+        {
+		"name": "Floating Market",
+                "uniqueTo": "Siam Kingdom",
+                "replaces": "Market",
+		"gold": 2,
+                "food": 1,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+                "uniques": ["[+1 Food] from every [Lakes]"],
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+        {
+		"name": "Gurdwara",
+                "uniqueTo": "Sikh Empire",
+                "replaces": "Temple",
+		"faith": 3,
+                "culture": 1,
+                "happiness": 1,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Stave Church",
+                "uniqueTo": "High Kingdom of the North",
+                "replaces": "Temple",
+		"faith": 2,
+                "culture": 2,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Tribal Caravan",
+		"uniqueTo": "Transjordan",
+        "replaces": "Barracks",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Infantry] units [in this city]",
+		"New [Heavy Cavalry] units start with [4] XP [in this city]","New [Light Cavalry] units start with [4] XP [in this city]","New [Camel] units start with [4] XP [in this city]"],
+		"requiredTech": "Hunting Pets"
+	},
+        {
+		"name": "Desert Mosque",
+                "uniqueTo": "Gonja",
+                "replaces": "Temple",
+		"faith": 4,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["[+1 Faith] from every [Desert]","Destroyed when the city is captured"]
+	}
+        {
+		"name": "Heiau",
+                "uniqueTo": "Hawaii",
+                "replaces": "Temple",
+		"faith": 4,
+                "food": 1,
+                "greatPersonPoints": {"Great Prophet": 4},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	}
+{
+		"name": "Qubba",
+                "uniqueTo": "Darfur",
+                "replaces": "Temple",
+		"faith": 4,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured","[+2 Gold] from [Holy site] tiles [in this city]"]
+	}
+{
+		"name": "Namazgah",
+"uniqueTo": "Bukhara",
+                "replaces": "Temple",
+		"faith": 4, 
+                "gold": 2,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	}
+{
+		"name": "Spiritual Shrine",
+                "uniqueTo": "Mongolia",
+                "replaces": "Temple",
+		"faith": 4,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 90,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["[+30]% [Faith] <during a Golden Age>","Destroyed when the city is captured"]
+	},
+
+        {
+		"name": "Temple",
+		"faith": 4,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Ngudangu",
+		"replaces": "Temple",
+		"uniqueTo": "Murrinh Patha",
+		"faith": 4,
+		"culture": 1,
+		"happiness": 1,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	}
+        {
+		"name": "Pillaged Estancia",
+		"replaces": "Granary",
+		"uniqueTo": "Patagonian Confederation",
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["Free [Worker] appears","Provides [1] [Wheat] <with [100]% chance>","Provides [1] [Horses] <with [100]% chance>","Unsellable","[+1 Food] from [Mill] tiles [in this city]"],
+		"requiredTech": "Hunting Pets"
+	},
+        {
+		"name": "Wine Estate",
+                "replaces": "Market",
+		"uniqueTo": "Cape Colony",
+		"gold": 3,
+		"specialistSlots": {"Merchant": 1},
+                "uniques": ["Provides [1] [Wine] <with [100]% chance>","Unsellable","[+1 Gold] from [Slave Labor Plantation] tiles [in this city]"],
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+	{
+		"name": "Communism Camp",
+                "replaces": "Market",
+		"uniqueTo": "Italy",
+		"gold": 3,
+		"specialistSlots": {"Merchant": 1},
+                "uniques": ["Provides [1] [Wine] <with [100]% chance>","Unsellable","[+2 Gold] from [Slave Labor Plantation] tiles [in this city]"],
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+	{
+		"name": "Palais Impérial",
+		"gold": 7,
+		"faith": 7,
+		"culture": 7,
+		"happiness": 3,
+		"specialistSlots": {"Merchant": 1},
+                "uniques": ["Provides [1] [Wine] <with [100]% chance>","Unsellable","[+50]% Great Person generation [in this city] <with a garrison>", "Unbuildable"],
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+	},
+	{
+		"name": "Imperator Factory",
+		"gold": 1,
+                "uniques": ["Unsellable", "Unbuildable", "[+20]% Production when constructing [Military] units [in this city]"],
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+	},
+	{
+		"name": "Place des Mafias",
+        "replaces": "Market",
+		"uniqueTo": "Brasilian Empire",
+		"gold": 3,
+		"specialistSlots": {"Merchant": 1},
+                "uniques": ["Provides [1] [Yerba Mate] <with [100]% chance>","Unsellable","[+2 Gold] from [Slave Labor Plantation] tiles [in this city]"],
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+	{
+		"name": "Colonial Dockyard",
+		"replaces": "Harbor",
+		"uniqueTo": "British Hong Kong",
+		"cost": 120,
+		"gold": 3,
+		"production": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Industrialization"
+	},
+        {
+		"name": "Kumasi Market",
+                "replaces": "Market",
+		"uniqueTo": "Ashanti Empire",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+                "uniques": ["Free [Exportation Slave] appears"],
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+	{
+		"name": "Karamanli Bazaar",
+		"replaces": "Market",
+		"uniqueTo": "The Karamanli",
+		"gold": 3,
+		"food": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+        {
+		"name": "Hacienda",
+                "replaces": "Granary",
+		"uniqueTo": "Mexico",
+		"food": 3,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets"
+		"uniques": ["[+1 Gold] from [Marsh] tiles [in this city]",
+			"[+1 Gold] from [Forest] tiles [in this city]",
+			"[+1 Gold] from [Jungle] tiles [in this city]"],
+	},
+        {
+		"name": "Guild",
+                "replaces": "Mint",
+		"uniqueTo": "Benin Kingdom",
+                "greatPersonPoints": {"Great Prophet": 1},
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Jungle] tiles [in this city]","[+2 Gold] from [Luxury resource] tiles [in this city]"],
+		"requiredTech": "Mining"
+	},
+        {
+		"name": "Gold Mine",
+                "replaces": "Bank",
+		"uniqueTo": "Transvaal",
+		"gold": 4,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Electricity"
+	},
+        {
+		"name": "Criadero de Llamas",
+                "replaces": "Granary",
+		"uniqueTo": "Peru",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets"
+		"uniques": ["[+1 Food] from [Hill] tiles [in this city]",
+			"[+1 Food] from [Desert] tiles [in this city]"],
+	},
+        {
+		"name": "Bahay Kubo",
+                "replaces": "Granary",
+		"uniqueTo": "Philipines",
+		"food": 3,
+		"culture": 1,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets"
+		"uniques": ["[+1 Food] from [Lakes] tiles [in this city]","[+1 Food] from [Marsh] tiles [in this city]","[+1 Food] from [Jungle] tiles [in this city]"],
+	},
+ {
+		"name": "Caboclo Village",
+                "replaces": "Library",
+		"uniqueTo": "Great Para",
+		"hurryCostModifier": 25,
+		"food": 1,
+		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+1 Faith] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Gas Lighting"
+	},
+{
+		"name": "Mudbrick Skyscraper",
+                "replaces": "Granary",
+		"uniqueTo": "Yemen",
+		"food": 2,
+                "culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets"
+		"uniques": ["Must be on [Desert]","[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+	},
+	{
+		"name": "Ajagwar",
+		"replaces": "Factory",
+		"uniqueTo": "Circassia",
+		"cost": 360,
+		"production": 4,
+		"culture": 3,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Mahdi's Tomb",
+		"replaces": "Memorial",
+		"uniqueTo": "Sudan",
+                "specialistSlots": {"Artist": 5},
+		"hurryCostModifier": 25,
+		"culture": 4,
+                "production": 1,
+		"uniques": ["[+35]% [Culture] [in this city]",
+
+"[+35]% Great Person generation [in this city]", "Cost increases by [50] per owned city"],
+		"requiredTech": "Paris Agreements"
+	},
+{
+		"name": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets",
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"]
+	},
+	{
+		"name": "Apple Tree Plot",
+		"replaces": "Granary",
+		"uniqueTo": "Vermont",
+		"food": 2,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets",
+		"uniques": ["[+2 Food] [in this city] <during the [Industrial Era]>","[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"]
+	},
+	{
+		"name": "Arepa Hacienda",
+		"replaces": "Granary",
+		"uniqueTo": "Venezuela",
+		"food": 2,
+		"culture": 1,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets",
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+2 Food] from [Wheat] tiles [in this city]"]
+	},
+	{
+		"name": "Desert Supplies",
+		"replaces": "Granary",
+		"uniqueTo": "German South West Africa",
+		"food": 3,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets",
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]","[+1 Food] in cities on [Desert] tiles",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"]
+	},
+	{
+		"name": "Hivernant",
+		"replaces": "Granary",
+		"uniqueTo": "Metis",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets",
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]","[+1 Faith] from [Hunter Lodge] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"]
+	},
+{
+		"name": "Wickiup",
+		"food": 2,
+                "replaces": "Granary",
+		"uniqueTo": "Apache",
+
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets",
+		"uniques": ["[+1 Gold, +1 Production] in cities on [Plains] tiles","[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"]
+	},
+	{
+		"name": "Colonial Plantation",
+		"replaces": "Water Mill",
+		"uniqueTo": "German East Africa",
+		"food": 1,
+		"production": 1,
+		"gold": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "Saw"
+	},
+	{
+		"name": "Tropisches Konsulat",
+		"replaces": "Library",
+		"uniqueTo": "German Kamerun",
+		"hurryCostModifier": 25,
+		"faith": 2,
+		"uniques": ["[+1 Science] from [House] tiles [in this city]"],
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "Wahhabi Madrasa",
+		"replaces": "Library",
+		"uniqueTo": "Kingdom of Saudi Arabia",
+		"hurryCostModifier": 25,
+		"science": 1,
+		"faith": 1,
+		"maintenance": 2,
+		"uniques": ["[+1 Science] from [House] tiles [in this city]"],
+		"requiredTech": "Gas Lighting"
+	},
+{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] from [House] tiles [in this city]"],
+		"requiredTech": "Gas Lighting"
+	},
+        {
+		"name": "Daguerreotype Studio",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Gold] from [House] tiles [in this city]"],
+		"requiredTech": "Photography"
+	},
+        {
+		"name": "Calotype Workshop",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["[+1 Culture] from [House] tiles [in this city]"],
+		"requiredTech": "Photography"
+	},
+        {
+		"name": "Photographic Society",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+                "happiness": 1,
+                "science": 1,
+		"requiredTech": "Photography"
+	},
+        {
+		"name": "Collodion Factory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+                "production": 1,
+                "culture": 1,
+		"requiredTech": "Photography"
+	},
+	{
+		"name": "Paper Maker",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Log Cabin] tiles [in this city]"],
+		"requiredTech": "Gas Lighting"
+	},
+        {
+		"name": "Circus",
+		"requiredNearbyImprovedResources": ["Ivory"],
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "Water Mill",
+		"food": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "Saw"
+	},
+        
+        {
+		"name": "Sawmill",
+		"maintenance": 1,
+		"production": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [Forest]"],
+		"requiredTech": "Saw"
+	},
+        {
+		"name": "Dentist Office",
+		"maintenance": 2,
+		"food": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Anesthesia"
+	},
+        {
+		"name": "Pharmacy",
+                "maintenance": 2,
+		"science": 1,
+		"food": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Vaccine"
+	},
+        {
+		"name": "Sanatorium",
+                "maintenance": 2,
+		"food": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Antibiotic"
+	},
+        {
+		"name": "Sewer",
+		"food": 1,
+                "maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Antibiotic"
+	},
+        {
+		"name": "Housing",
+                "gold": 1,
+		"hurryCostModifier": 25,
+                "uniques": ["[+5]% [Food] [in this city]"],
+		"requiredTech": "Antibiotic"
+	},
+        {
+		"name": "Pharmaceutical Laboratory",
+                "gold": 3,
+		"hurryCostModifier": 25,
+                "uniques": ["[+25]% [Happiness] [in this city]"],
+		"requiredTech": "Pharmaceuticals"
+	},
+        {
+		"name": "Medical Lab",
+                "food": 3,
+		"hurryCostModifier": 25,
+                "uniques": ["[25]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Pharmaceuticals"
+	},
+        {
+		"name": "Composites Fabric",
+                "production": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Composites"
+	},
+        {
+		"name": "Zaibatsu Fabric",
+                "uniqueTo": "Empire of the Rising Sun",
+                "replaces": "Composites Fabric",
+                "production": 5,
+		"hurryCostModifier": 25,
+		"requiredTech": "Composites"
+	},
+        {
+		"name": "Colonial Outpost",
+                "uniqueTo": "Colonial Empire of Belgium",
+                "replaces": "Courthouse",
+		"gold": 2,
+                "production": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Rifling"
+	},
+        {
+		"name": "Space Ship Design Center",
+                "science": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Composites"
+	},
+        {
+		"name": "Military hospital",
+		"hurryCostModifier": 25,
+                "uniques": ["[+25]% [Faith] [in this city]"],
+		"requiredTech": "Penicillin"
+	},
+        {
+		"name": "Bandage Workshop",
+		"hurryCostModifier": 25,
+                "uniques": ["[+15]% [Food] [in this city]"],
+		"requiredTech": "Penicillin"
+	},
+        {
+		"name": "Immunization Center",
+                "maintenance": 1,
+		"production": 1,
+		"food": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Anesthesia"
+	},
+        {
+		"name": "Museum of Medicine",
+                "maintenance": 2,
+		"culture": 1,
+		"food": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Vaccine"
+	},
+        {
+		"name": "Clinic",
+                "greatPersonPoints": {"Great Prophet": 1},
+                "maintenance": 2,
+		"science": 2,
+		"food": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Anesthesia"
+	},
+        {
+		"name": "Cold Storage Warehouse",
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Fridge"
+	},
+        {
+		"name": "Ice Cream Parlor",
+                "maintenance": 2,
+		"happiness": 2,
+		"food": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Fridge"
+	},
+        {
+		"name": "Refrigerated Train",
+                "maintenance": 2,
+		"hurryCostModifier": 25,
+                "uniques": ["[+15]% Production when constructing [Infantry] units [in this city]"],
+		"requiredTech": "Fridge"
+	},
+        {
+		"name": "Vaccine Laboratory",
+                "maintenance": 2,
+		"hurryCostModifier": 25,
+                "uniques": ["[+10]% [Food] [in this city]"],
+		"requiredTech": "Fridge"
+	},
+        {
+		"name": "Telegraph Station",
+                "maintenance": 2,
+                "greatPersonPoints": {"Great Prophet": 1},
+                "production": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Telegraph"
+	},
+        {
+		"name": "News Agency",
+                "maintenance": 2,
+                "science": 2,
+		"hurryCostModifier": 25,
+                "uniques": ["[+5]% [Science] [in this city]"],
+		"requiredTech": "Telegraph"
+	},
+        {
+		"name": "Stock Exchange",
+		"hurryCostModifier": 25,
+                "uniques": ["Enables conversion of city production to [Gold]","[+10]% [Gold] [in this city]"],
+		"requiredTech": "Telegraph"
+	},
+        {
+		"name": "Blood Bank",
+                "maintenance": 2,
+                "food": 2,
+		"hurryCostModifier": 25,
+                "uniques": ["[+5]% [Happiness] [in this city]"],
+		"requiredTech": "Transfusion"
+	},
+        {
+		"name": "Red Cross Society",
+                "food": 1,
+		"hurryCostModifier": 25,
+                "uniques": ["[+5]% [Happiness] [in this city]"],
+		"requiredTech": "Transfusion"
+	},
+        {
+		"name": "Diplomatic Intelligence",
+                "science": 1,
+		"hurryCostModifier": 25,
+                "uniques": ["[+15]% [Science] [in this city]"],
+		"requiredTech": "Guidance Systems"
+	},
+        {
+		"name": "Propaganda",
+                "happiness": 1,
+                "culture": 2,
+		"hurryCostModifier": 25,
+                "uniques": ["[+15]% [Happiness] [in this city]"],
+		"requiredTech": "Advanced Flight"
+	},
+        {
+		"name": "Cartoon Propaganda",
+                "happiness": 3,
+                "gold": 2,
+		"hurryCostModifier": 25,
+                "uniques": ["[+15]% [Happiness] [in this city]"],
+		"requiredTech": "Telecommunications"
+	},
+        {
+		"name": "Genetics Facility",
+                "science": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Transfusion"
+	},
+        {
+		"name": "Carpentry Workshop",
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [Forest]"],
+		"requiredTech": "Saw"
+	},
+        {
+		"name": "Geothermical Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"maintenance": 2,
+		"requiredTech": "Nuclear Energy",
+		"uniques": ["Must be next to [Atoll]"]
+	},
+{
+		"name": "Lighthouse",
+		"cost": 75,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+		"requiredTech": "Gas Lighting"
+	},
+{
+		"name": "Stable",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Heavy Cavalry] units [in this city]","[+15]% Production when constructing [Light Cavalry] units [in this city]","[+15]% Production when constructing [Camel] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]","[+1 Production] from [Camel] tiles [in this city]","[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Hunting Pets"
+	},
+	{
+		"name": "Barracks",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Infantry] units [in this city]"],
+		"requiredTech": "Hunting Pets"
+	},
+{
+		"name": "Courthouse",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Rifling"
+	},
+{
+		"name": "National College",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Cost increases by [30] per owned city"],
+		"requiredTech": "Scientific Theory"
+	},
+		{
+		"name": "Croissant-Rouge",
+        "uniqueTo": "Kingdom of Saudi Arabia",
+		"replaces": "National College",
+		"isNationalWonder": true,
+		"science": 5,
+		"culture": 3,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Cost increases by [30] per owned city","When declaring friendship, both parties gain a [25]% boost to great person generation"],
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Wahhabi Madrasa",
+		"requiredTech": "Scientific Theory"
+	},
+	{
+		"name": "UELE",
+        "uniqueTo": "Alps' Confederation",
+		"isNationalWonder": true,
+		"gold": 10,
+		"uniques": ["Cost increases by [30] per owned city","When declaring friendship, both parties gain a [25]% boost to great person generation"],
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Swiss Bank",
+		"requiredTech": "Coexistency"
+	},
+		{
+		"name": "Mafia Mondiale",
+        "uniqueTo": "Brasilian Empire",
+		"isNationalWonder": true,
+		"gold": 20,
+		"uniques": ["Cost increases by [30] per owned city"],
+		"percentStatBonus": {"gold": 40},
+		"requiredBuilding": "Place des Mafias",
+		"requiredTech": "Coexistency"
+	},
+        {
+		"name": "Anatomy Laboratory",
+		"cost": 125,
+		"science": 2,
+		"culture": 3,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Cost increases by [10] per owned city"],
+		"requiredTech": "Biology"
+	},
+{
+		"name": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Opera"
+	},
+        {
+		"name": "Novel Library",
+		"culture": 2,
+		"specialistSlots": {"Artist": 3},
+		"requiredBuilding": "Library",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Novel"
+	},
+        {
+		"name": "Explorer Books",
+		"culture": 1,
+                "happiness": 2,
+		"requiredBuilding": "Library",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Novel"
+	},
+        {
+		"name": "Dinosaur Park",
+		"science": 3,
+		"specialistSlots": {"Artist": 3},
+		"requiredBuilding": "Monument",
+		"maintenance": 4,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Biology"
+	},
+        {
+		"name": "Laboratory",
+		"science": 1,
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Archaeology"
+	},
+        {
+		"name": "Psychoanalytic Clinic",
+		"happiness": 2,
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Psychoanalysis"
+	},
+        {
+		"name": "Freudian Museum",
+		"culture": 2,
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Psychoanalysis"
+	},
+        {
+		"name": "Dream Laboratory",
+		"science": 1,
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Psychoanalysis"
+	},
+        {
+		"name": "World Trade Center",
+                "requiredNearbyImprovedResources": ["Oil"],
+		"gold": 4,
+		"specialistSlots": {"Merchant": 6},
+		"requiredBuilding": "Market",
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "[+5]% Great Person generation [in this city]", "Cost increases by [50] per owned city"],
+		"requiredTech": "International Trade Agreements"
+	},
+        {
+		"name": "Silicon Market",
+                "requiredNearbyImprovedResources": ["Oil"],
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Provides [1] [Silicon] <with [100]% chance>","[+1 Gold] from [Oil] tiles [in this city]"],
+		"requiredTech": "Personal Computing"
+	},
+        {
+		"name": "Computers Market",
+                "maintenance": 3,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Provides [1] [Computer] <with [100]% chance>"],
+		"requiredTech": "Personal Computing"
+	},
+        {
+		"name": "Organ Market",
+		"gold": 6,
+                "food": -3,
+		"requiredBuilding": "Market",
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "Cost increases by [5] per owned city"],
+		"requiredTech": "International Trade Agreements"
+	},
+        {
+		"name": "Technology Factory",
+                "requiredNearbyImprovedResources": ["Aluminum"],
+		"science": 2,
+                "maintenance": 5,
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Campus",
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured","Cost increases by [50] per owned city"],
+		"requiredTech": "Globalization"
+	},
+        {
+		"name": "Foreign Embassy",
+                "requiredNearbyImprovedResources": ["Aluminum"],
+		"culture": 2,
+                "maintenance": 2,
+		"requiredBuilding": "Campus",
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured","Cost increases by [10] per owned city"],
+		"requiredTech": "Globalization"
+	},
+        {
+		"name": "Campus",
+		"science": 1,
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Monument",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "[+10]% Great Person generation [in this city]", "Cost increases by [20] per owned city"],
+		"requiredTech": "Archaeology"
+	},
+	{
+		"name": "National Epic",
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Archaeology"
+	},
+	{
+		"name": "Congrès",
+        "greatPersonPoints": {"Great Artist": 2},
+		"cost": 125,
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": ["[+100]% Great Person generation [in this city]", "Unbuildable"],
+		"percentStatBonus": {"gold": -25}
+		"requiredTech": "Archaeology"
+	},
+        {
+		"name": "Memorial",
+                "specialistSlots": {"Artist": 5},
+		"hurryCostModifier": 25,
+		"culture": 3,
+                "production": 1,
+		"uniques": ["[+35]% Great Person generation [in this city]", "Cost increases by [50] per owned city"],
+		"requiredTech": "Paris Agreements"
+	},
+	{
+		"name": "Modern Barracks",
+		"hurryCostModifier": 25,
+		"production": 5,
+		"uniques": ["New [Military] units start with [50] XP [in this city]"],
+		"requiredTech": "Paris Agreements"
+	},
+	{
+		"name": "Market",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+        {
+		"name": "Botanical Garden",
+		"culture": 2,
+		"specialistSlots": {"Artist": 5},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"culture": 25},
+		"requiredTech": "Biology"
+	},
+{
+		"name": "Mint",
+                "greatPersonPoints": {"Great Prophet": 1},
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
+		"requiredTech": "Mining"
+	},
+        {
+		"name": "Stone Exploitation",
+		"maintenance": 2,
+		"requiredNearbyImprovedResources": ["Stone"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Stone] tiles [in this city]"],
+		"requiredTech": "Mining"
+	},
+{
+		"name": "Garden",
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Scientific Theory"
+	},
+        {
+		"name": "Science Gossip Museum",
+		"uniques": ["[+15]% Great Person generation [in this city]", "Must be next to [Lakes]"],
+		"hurryCostModifier": 25,
+		"science": 1,
+		"requiredTech": "Biology"
+	},
+{
+		"name": "Grand Temple",
+		"cost": 125,
+		"culture": 1,
+		"faith": 8,
+		"uniques": ["Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"],
+		"requiredTech": "Telegraph",
+		"isNationalWonder": true
+	},
+{
+		"name": "National Treasury",
+		"cost": 125,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Cost increases by [30] per owned city"],
+		"requiredTech": "Railway"
+	},
+	{
+		"name": "Governor Office",
+		"uniqueTo": "Colony of Malaysia",
+        "replaces": "National Treasury",
+		"cost": 125,
+		"gold": 8,
+		"science": 3,
+		"culture": 2,
+		"isNationalWonder": true,
+		"uniques": ["Cost increases by [20] per owned city"],
+		"requiredTech": "Railway"
+	},
+       {
+		"name": "Colonial Railway",
+                "uniqueTo": "British Raj",
+                "replaces": "National Treasury",
+		"cost": 125,
+		"gold": 2,
+		"production": 4,
+		"isNationalWonder": true,
+		"uniques": ["Cost increases by [30] per owned city"],
+		"requiredTech": "Railway"
+	},
+	{
+		"name": "Pacific Formation Campus",
+		"uniqueTo": "German New Guinea",
+        "replaces": "Campus",
+		"science": 3,
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "[+10]% Great Person generation [in this city]", "Cost increases by [20] per owned city"],
+		"requiredTech": "Archaeology"
+	},
+        {
+		"name": "Kiguba"
+                "uniqueTo": "Buganda",
+                "replaces": "Mint",
+                "greatPersonPoints": {"Great Prophet": 1},
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Gold] from every [Luxury resource]"],
+		"requiredTech": "Mining"
+	},
+	{
+		"name": "Clove Plantation",
+		"uniqueTo": "Portuguese Timor",
+        "replaces": "Market",
+		"gold": 3,
+		"production": 1,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+        {
+		"name": "Fale Tele",
+                "uniqueTo": "Samoa",
+                "replaces": "Harbor",
+		"cost": 120,
+		"maintenance": 2,
+                "culture": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Faith] from [Coast] tiles [in this city]"],
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Casa da India",
+		"uniqueTo": "Portuguese India",
+        "replaces": "Bank",
+		"gold": 3,
+		"production": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Fishing Stage",
+		"uniqueTo": "Newfoundland",
+        "replaces": "Seaport",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"food": 1,
+		"maintenance": 3,
+		"requiredBuilding": "Harbor",
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]", "New [Military] units start with [15] XP [in this city]",
+			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Modernism Library",
+		"uniqueTo": "Nicaragua",
+        "replaces": "Novel Library",
+		"culture": 4,
+		"specialistSlots": {"Artist": 4},
+		"requiredBuilding": "Library",
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Novel"
+	},
+	{
+		"name": "Soap Factory",
+		"uniqueTo": "Syria Palestina",
+        "replaces": "Workshop",
+		"maintenance": 0,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"uniques":["Provides [1] [Soap]"],
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Rifling"
+	},
+{
+		"name": "Workshop",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Rifling"
+	},
+{
+		"name": "Forge",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Coal"],
+		"requiredTech": "Industrialization",
+		"uniques": [
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Coal] tiles [in this city]"]
+	},
+{
+		"name": "Harbor",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Archaeology"
+	},
+		{
+		"name": "Universitas",
+    	"uniqueTo": "Respublika Heptanarija",
+		"replaces": "University",
+		"hurryCostModifier": 15,
+		"gold": 2,
+		"percentStatBonus": {"science": 40},
+		"specialistSlots": {"Scientist": 3},
+		"requiredBuilding": "Library",
+		"uniques": ["[+15 Science] from [City center] tiles [in this city]"],
+		"requiredTech": "Archaeology"
+	},
+{
+		"name": "Observatory",
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Library",
+		"uniques": ["Must be next to [Mountain]", "[+1 Science] from [Mine] tiles [in this city]"],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Opera House",
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Opera",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+{
+		"name": "Bank",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Electricity"
+	},
+{
+		"name": "Theatre",
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredTech": "Opera"
+	},
+{
+		"name": "Seaport",
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"requiredBuilding": "Harbor",
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "CMTI's Seaport",
+		"uniqueTo": "Iberic Federation",
+        "replaces": "Seaport",
+		"hurryCostModifier": 25,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"maintenance": 4,
+		"requiredBuilding": "Harbor",
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]", "[Great Merchant] is earned [50]% faster"],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Hermitage",
+		"cost": 125,
+		"percentStatBonus": {"culture": 50},
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": ["Cost increases by [30] per owned city"],
+		"requiredTech": "Electricity"
+	},
+{
+		"name": "Museum",
+		"culture": 5,
+		"specialistSlots": {"Artist": 2},
+		"requiredBuilding": "Opera House",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Psychoanalysis",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Factory",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Electricity"
+	},
+		{
+		"name": "Industrie du Paprika",
+		"uniqueTo": "Hungary",
+        "replaces": "Factory",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"food": 1,
+		"production": 5,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 3},
+		"requiredBuilding": "Workshop",
+		"uniques": ["[+1 Production, +1 Gold] from [River] tiles [in this city]"],
+		"requiredTech": "Electricity"
+	},
+		{
+		"name": "Industries Souterrainnes",
+		"uniqueTo": "Respublika Heptanarija",
+        "replaces": "Factory",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"production": 7,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 3},
+		"requiredBuilding": "Workshop",
+		"uniques": ["[+1 Food, +1 Production] from [River] tiles [in this city]"],
+		"requiredTech": "Electricity"
+	},
+        {
+		"name": "Hospital",
+		"food": 5,
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Transfusion"
+	},
+        { 
+		"name": "Cold Room",
+		"food": 3,
+		"requiredBuilding": "Harbor",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Electrical Refrigeration"
+	},
+        {
+		"name": "Cryogenic Laboratory",
+		"science": 3,
+		"requiredBuilding": "Laboratory",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredResource": "Aluminum",
+		"requiredTech": "Electrical Refrigeration"
+	},
+        {
+		"name": "Radio Station",
+		"culture": 3,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+                "uniques": ["Enables conversion of city production to [Culture]"],
+		"requiredTech": "Electronics"
+	},
+        {
+		"name": "Electronic Laboratory",
+		"science": 3,
+		"requiredBuilding": "Laboratory",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+                "uniques": ["Enables conversion of city production to [Science]"],
+		"requiredResource": "Aluminum",
+		"requiredTech": "Electronics"
+	},
+        {
+		"name": "Central bank",
+		"gold": 1,
+                "happiness": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Economics"
+	},
+        {
+		"name": "Stock market",
+		"gold": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Economics"
+	},
+        {
+		"name": "Armor Plate Factory",
+                "maintenance": 2,
+                "uniques": ["[+15]% Production when constructing [Armored] units [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Tanks"
+	},
+        {
+		"name": "Military Factory",
+                "production": 2,
+                "uniques": ["[+5]% Production when constructing [Armored] units [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Post War"
+	},
+        {
+		"name": "Peace Conferency",
+                "happiness": 2,
+                "uniques": ["[+15]% Production when constructing [Infantry] units [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Post War"
+	},
+        {
+		"name": "Great War Arsenal",
+                "maintenance": 2,
+                "uniques": ["[+15]% Production when constructing [Infantry] units [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Ballistics"
+	},
+	        {
+		"name": "Supercomplexe",
+                "uniqueTo": "United States of America",
+                "replaces": "Arsenal",
+		"cost": 300,
+		"cityStrength": 9,
+		"cityHealth": 30,
+		"hurryCostModifier": 25,
+		"gold": 3,
+		"requiredBuilding": "Great War Arsenal",
+		"requiredTech": "Artillery",
+		"uniques": ["New [Military] units start with [10] XP [in this city]","Destroyed when the city is captured", "[+30]% Production when constructing [Military] units [in this city]"]
+	},
+        {
+		"name": "Hangar",
+                "maintenance": 2,
+                "uniques": ["[+15]% Production when constructing [Fighter] units [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Flight"
+	},
+        {
+		"name": "Chemistry Laboratory",
+                "maintenance": 2,
+                "uniques": ["[+1 Science] from [Atoll] tiles [in this city]", "[+1 Science] from [Jungle] tiles [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Chemistry"
+	},
+        {
+		"name": "Radio Antenna",
+                "maintenance": 2,
+                "uniques": ["[Great Artist] is earned [50]% faster"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Radio"
+	},
+        {
+		"name": "Precarious Housing",
+                "greatPersonPoints": {"Great Prophet": 2},
+                "food": 2,
+                "uniques": ["[Great Artist] is earned [20]% faster"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Aerosol Can"
+	},
+        {
+		"name": "Nanotechnology Laboratory",
+                "maintenance": 1,
+                "uniques": ["[+1 Production] from [Mine] tiles [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Aerosol Can"
+	},
+        {
+		"name": "Space observatory",
+                "science": 2,
+                "uniques": ["[+15]% [Science] [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Satellites"
+	},
+        {
+		"name": "Communications Station",
+                "maintenance": 1,
+                "uniques": ["[+15]% [Culture] [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Satellites"
+	},
+        {
+		"name": "Fruit Market",
+                "maintenance": 1,
+                "uniques": ["[+15]% [Food] [in this city]", "Only available <in cities without a [Home Appliances Market]>"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Free Market"
+	},
+        {
+		"name": "Home Appliances Market",
+                "maintenance": 1,
+                "uniques": ["[+15]% [Gold] [in this city]", "Only available <in cities without a [Fruit Market]>"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Free Market"
+	},
+        {
+		"name": "War Ministry",
+                "production": 1,
+                "uniques": ["[+100]% Yield from every [Great Improvement]","New [Military] units start with [35] XP [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "European Union"
+	},
+        {
+		"name": "Fertilizer and Sulphate",
+                "food": 1,
+                "uniques": ["[+1 Food] from every [Mill]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Nitter"
+		"requiredTech": "Farm Technology"
+	},
+        {
+		"name": "Artificial Seed",
+                "food": 1,
+                "uniques": ["[+1 Food] from every [Wheat]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Nitter"
+		"requiredTech": "Farm Technology"
+	},
+        {
+		"name": "Digital Service",
+                "uniques": ["[+1 Science] from every [Luxury resource]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Computer"
+		"requiredTech": "Cloud Computing"
+	},
+        {
+		"name": "Digital Propaganda",
+                "uniques": ["[+1 Science] from every [Strategic resource]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Computer"
+		"requiredTech": "Cloud Computing"
+	},
+        {
+		"name": "Apollo Program",
+		"cost": 750,
+		"isNationalWonder": true,
+		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion",
+			"Only available <when [Space Race] Victory is enabled>", "Cannot be hurried"],
+		"requiredTech": "Space Race"
+	},
+	///////////// WONDERS
+
+	//////// Industrial Era
+	{
+		"name": "Eiffel Tower",
+		"isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"requiredTech": "Industrialization",
+		"uniques": ["[+1 Happiness] per [2] population [in all cities]"]
+	},
+	{
+		"name": "Brooklyn Bridge",
+		"isWonder": true,
+		"happiness": 2,
+		"greatPersonPoints": {"Great Engineer": 4},
+		"requiredTech": "Industrialization",
+		"uniques": ["[+1 Gold] [in all cities]"]
+	},
+	{
+		"name": "Crystal Palace",
+		"isWonder": true,
+		"gold": 4,
+		"requiredTech": "Industrialization",
+		"uniques": ["[+1 Gold] per [2] population [in all cities]"]
+	},
+	{
+		"name": "Panama Canal",
+		"isWonder": true,
+		"food": 2,
+		"gold": 4,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"requiredTech": "Industrialization",
+		"uniques": ["[+1 Gold, +1 Production] from [Coast] tiles [in this city]"]
+	},
+	{
+		"name": "Statue of Liberty",
+		"isWonder": true,
+		"happiness": 5,
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Suez Canal",
+		"isWonder": true,
+		"gold": 7,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"requiredTech": "Industrialization",
+		"uniques": ["[+1 Gold] from [Ocean] tiles [in this city]"]
+	},
+
+	//////// NEW imperial era
+
+	{
+		"name": "Palace of Westminster",
+		"isWonder": true,
+		"culture": 4,
+		"requiredTech": "Photography",
+		"uniques": ["[+1 Culture] per [3] population [in all cities]"]
+	},
+	{
+		"name": "Victoria Terminus",
+		"isWonder": true,
+		"culture": 4,
+		"requiredTech": "Photography",
+		"uniques": ["[+1 Faith] per [2] population [in all cities]"]
+	},
+	{
+		"name": "Aswan Low Dam",
+		"isWonder": true,
+		"production": 4,
+		"requiredTech": "Photography",
+		"uniques": ["[+1 Production] per [2] population [in all cities]"]
+	},
+	{
+		"name": "Tokyo Station",
+		"isWonder": true,
+		"production": 1,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"requiredTech": "Photography",
+		"uniques": ["[+30]% [Production] [in all cities]"]
+	},
+	{
+		"name": "Sydney Harbour Bridge",
+		"isWonder": true,
+		"culture": 1,
+		"requiredTech": "Photography",
+		"uniques": ["[+2 Gold] from [Ocean] tiles [in all cities]"]
+	},
+	{
+		"name": "Victoria Memorial",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"requiredTech": "Photography",
+		"uniques": ["[+1 Culture] from [House] tiles [in this city]"]
+	},
+	{
+		"name": "Federal Palace",
+		"isWonder": true,
+		"gold": 2,
+		"requiredTech": "Photography",
+		"uniques": ["[+2 Gold] per [2] population [in all cities]"]
+	},
+
+	/////////// WW1
+	
+	{
+		"name": "Liberty Memorial",
+		"isWonder": true,
+		"culture": 4,
+		"requiredTech": "Radio",
+		"uniques": ["[+1 Happiness] per [3] population [in all cities]"]
+	},
+	{
+		"name": "Veligrad",
+		"isWonder": true,
+		"culture": 4,
+		"requiredTech": "Radio",
+		"uniques": ["Population loss from nuclear attacks [-100]% [in this city]", "[+1 Production] per [2] population [in all cities]"]
+	},
+	//////// WW2
+
+	{
+		"name": "United Nations",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"requiredTech": "European Union",
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"]
+	},
+	{
+		"name": "Hiroshima Peace Memorial",
+		"isWonder": true,
+		"faith": 10,
+		"uniques": ["[+1 Happiness] per [2] population [in all cities]"],
+		"requiredTech": "Atomic Theory"
+	},
+	{
+		"name": "Panier de Budapest",
+		"isWonder": true,
+		"faith": 10,
+		"uniques": ["Gain an extra spy", "[+30]% spy effectiveness [in City-State cities]"],
+		"requiredTech": "European Union"
+	},
+		{
+		"name": "Sciences Caverns",
+		"isWonder": true,
+		"culture": 4,
+		"requiredTech": "Atomic Theory",
+		"uniques": ["[+2 Science] per [2] population [in all cities]"]
+	},
+	{
+		"name": "Pentagon",
+		"isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
+		"requiredTech": "Atomic Theory"
+	},
+	{
+		"name": "Cathedral",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Monastery",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Mosque",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Pagoda",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	/// EXCLUSIVE ONES
+	{
+		"name": "Cathedral",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Daoguan",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Derasar",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Gurdwara",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Hof",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Jinja",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Mandi",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Mandir",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Mashriqu'l-Adhkár",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Meeting House",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Naos",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Nemeton",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Synagogue",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Teocalli",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Wat",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Dar-e Mehr",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	}
+]
