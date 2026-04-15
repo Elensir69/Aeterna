@@ -6,10 +6,10 @@
 //		"innerColor": [255,255,255]
 },
 {
-	"name": "Navajo",
-	"leaderName": "Hashkeh Naabaah",
-	"adjective": ["Navajo"],
-	"startBias":["Desert"],
+	"name": "Royaume de Borée",
+	"leaderName": "Orion IX",
+	"adjective": ["Boréens"],
+	"startBias":["Snow"],
 	"preferredVictoryType": "Supremacy",
 
 
@@ -31,10 +31,10 @@
 	"spyNames": ["Saki"]
     },
 {
-	"name": "Maratha",
-	"leaderName": "Baji Rao II",
-	"adjective": ["Maratha"],
-	"startBias":["Hill"],
+	"name": "Cité-État de Sélestias",
+	"leaderName": "Conseil des Anciens",
+	"adjective": ["Sélestiens"],
+	"startBias":["Lake"],
 	"preferredVictoryType": "Supremacy",
 
 
@@ -56,10 +56,10 @@
 	"spyNames": ["Saki"]
     },
 {
-		"name": "Syria Palestina",
-		"leaderName": "Ibrahim Pasha",
-		"adjective": ["Syria Palestina"],
-		"startBias":["Desert"],
+		"name": "Empire de Kirania",
+		"leaderName": "?",
+		"adjective": ["Kiraniens"],
+		"startBias":["Hills"],
 		"preferredVictoryType": "Diplomatic",
 	
 	
@@ -82,10 +82,10 @@
 		"spyNames": ["Saki"]
 	},
 {
-		"name": "Syria al-Sham",
-		"leaderName": "Nazif Pasha",
-		"adjective": ["Syria al-Sham"],
-		"startBias":["Desert"],
+		"name": "Empire d'Aurorae",
+		"leaderName": "Aurélien X",
+		"adjective": ["Auroraens"],
+		"startBias":["Grassland"],
 		"preferredVictoryType": "Diplomatic",
 	
 	
@@ -108,7 +108,7 @@
 		"spyNames": ["Saki"]
 	},
 {
-		"name": "Levantine Confederacy",
+		"name": "Royaumes du Non-Lieu",
 		"leaderName": "Wali Farid al-Hamawi",
 		"adjective": ["Levantine Confederacy"],
 		"startBias":["Coast"],
@@ -134,7 +134,7 @@
 		"spyNames": ["Saki"]
 	},
 {
-		"name": "Transjordan",
+		"name": "Tribus des Montagnes",
 		"leaderName": "Emir Zayd al-Adwani",
 		"adjective": ["Transjordan"],
 		"startBias":["Desert"],
@@ -162,7 +162,7 @@
 		"spyNames": ["Saki"]
 	},
 {
-		"name": "Newfoundland",
+		"name": "Tribus des Riverains",
 		"leaderName": "Edward Morris",
 		"adjective": ["Newfoundland"],
 		"startBias":["Coast"],
@@ -188,7 +188,7 @@
 		"spyNames": ["Saki"]
 	},
 {
-		"name": "Hejaz",
+		"name": "Tribus des Forestiers",
 		"leaderName": "Hussein bin Ali al-Hashimi",
 		"adjective": ["Hejaz"],
 		"startBias":["Desert"],
@@ -214,7 +214,7 @@
 		"spyNames": ["Saki"]
 	},
 {
-	"name": "Azande",
+	"name": "Tribu des Plaines",
 	"leaderName": "Gbudwe",
 	"adjective": ["Azande"],
 	"startBias":["Jungle"],
@@ -240,10 +240,10 @@
 	"spyNames": ["Saki"]
 },
 {
-	"name": "The Kazakhs",
-	"leaderName": "Kenesary Khan",
-	"adjective": ["The Kazakhs"],
-	"startBias": ["Hill","Mountain"],
+	"name": "Confédération de Tadmor",
+	"leaderName": "Conseil des Marchands",
+	"adjective": ["Tadmoréens"],
+	"startBias": ["Desert"],
 	"preferredVictoryType": "Supremacy",
 	
 	"startIntroPart1": "",
@@ -265,10 +265,10 @@
 	"cities": ["Astana","Almaty","Shymkent","Karaganda","Aktobe","Taraz","Pavlodar","Oskemen","Semey","Atyrau","Kostanay","Kyzylorda","Uralsk","Petropavl","Aktau"]
 },
 {
-	"name": "Nicaragua",
-	"leaderName": "José Santos Zelaya",
-	"adjective": ["Nicaragua"],
-	"startBias":["Jungle"],
+	"name": "Royaume de Siredôr",
+	"leaderName": "Elensir",
+	"adjective": ["Siredoriens"],
+	"startBias":["Forest"],
 	"preferredVictoryType": "Destruction",
 
 
@@ -304,10 +304,10 @@
 	"spyNames": ["Saki"]
 },
 {
-	"name": "Sudan",
+	"name": "Dynastie des Arsacides",
 	"leaderName": "Muhammad Ahmad al-Mahdi",
-	"adjective": ["Sudan"],
-	"startBias":["Desert"],
+	"adjective": ["Arsacides"],
+	"startBias":["Grassland"],
 	"preferredVictoryType": "Destruction",
 
 
@@ -338,7 +338,7 @@
 	"spyNames": ["Saki"]
 },
 {
-	"name": "Vermont",
+	"name": "Îles d'Ooststaatland",
 	"leaderName": "Thomas Chittenden",
 	"adjective": ["Vermont"],
 	"startBias":["Grassland"],
