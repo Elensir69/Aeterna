@@ -1,6 +1,6 @@
 [
     {
-        "name": "Industrial Era",
+        "name": "Première Ère",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
@@ -13,7 +13,7 @@
         "iconRGB": [255, 87, 35]
     },
     {
-        "name": "New Imperial Era",
+        "name": "Seconde Ère",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
@@ -29,7 +29,7 @@
         "iconRGB": [233, 31, 99]
     },
     {
-        "name": "First World War",
+        "name": "Troisème Ère",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
@@ -45,7 +45,7 @@
         "iconRGB": [157, 39, 176]
     },
     {
-        "name": "Second World War",
+        "name": "Quatrième Ère",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
@@ -63,7 +63,7 @@
         "uniques": ["May not generate great prophet equivalents naturally"]
        },
        {
-        "name": "Cold War",
+        "name": "Grande Guerre du Quatrième Ère",
         "researchAgreementCost": 350,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
@@ -81,7 +81,7 @@
         ]
         },
        {
-        "name": "Post Cold War",
+        "name": "723 du Quatrième Ère",
         "researchAgreementCost": 350,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
