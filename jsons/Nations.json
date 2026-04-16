@@ -372,7 +372,7 @@
 	"spyNames": ["Saki"]
 },
 {
-	"name": "Venezuela",
+	"name": "Drákôn",
 	"leaderName": "Antonio Guzmán Blanco",
 	"adjective": ["Venezuela"],
 	"startBias":["Plains"],
@@ -407,7 +407,7 @@
 	"spyNames": ["Saki"]
 },
 {
-	"name": "Cuba",
+	"name": "Kemet",
 	"leaderName": "José Martí",
 	"adjective": ["Cuba"],
 	"startBias":["Coast"],
@@ -442,7 +442,7 @@
 	"spyNames": ["Saki"]
 },
 {
-	"name": "Aceh",
+	"name": "Union des Républiques",
 	"leaderName": "Sultan Muhammad Daud Syah",
 	"adjective": ["Aceh"],
 	"startBias":["Coast"],
@@ -477,7 +477,7 @@
 	"spyNames": ["Saki"]
 },
 {
-	"name": "Portuguese India",
+	"name": "La Métropole",
 	"leaderName": "Afonso de Albuquerque",
 	"adjective": ["Portuguese India"],
 	"startBias":["Coast"],
